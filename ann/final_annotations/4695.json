@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "A red truck partially in the ego vehicle's lane",
+      "explanation": "The truck is positioned on the left side of the road, encroaching into the ego vehicle's lane, which may pose a risk of collision if the ego vehicle does not adjust its position or speed."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego vehicle should slow down due to the nearby truck that is partially in its lane, and then carefully change lanes or adjust its lateral position within the lane to safely pass the pothole and the parked vehicles. The driver should be aware of any additional road users, such as pedestrians, that might be obscured behind the parked cars. Continuous monitoring for any other road users or signals that become visible as the vehicle progresses is advised."
+  ]
+}

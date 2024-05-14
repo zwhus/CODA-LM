@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "A dark-colored sedan parked on the left side of the road, partially in our lane, facing away from us",
+      "explanation": "This car is obstructing part of our lane and requires the ego car to maneuver around it, potentially into the opposing lane, to continue."
+    },
+    {
+      "description": "Another white car is visible, also parked on the right side of the image. No lights are visible on this vehicle and it appears stationary.",
+      "explanation": "The white car poses less immediate risk, but it is essential to remain alert as it could start moving without prior indication."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "Various shops and closed storefront shutters on the sides of the street, no active road users or additional objects on the road",
+      "explanation": "The stationary environment suggests currently low pedestrian activity, but awareness should be maintained in case of unexpected pedestrian movements from the sidewalks."
+    }
+  ],
+  "suggestions": [
+    "Due to the reduced lane width caused by parked vehicles and the narrowness of the street, the ego car should proceed with caution, maintaining a low speed, and be prepared to stop if any of the cars should pull out into the traffic flow. Additionally, the ego car should remain alert for other road users that may not be visible in the current field of view, such as pedestrians emerging from between parked vehicles."
+  ]
+}

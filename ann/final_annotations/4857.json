@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "Yellow construction vehicle, obstructing the right side of the ego car's lane, positioned diagonally ahead, with the rear end closer to the ego car",
+      "explanation": "This vehicle is partially blocking the lane and could potentially move, requiring the ego car to slow down or change lanes to maintain a safe distance and pass safely."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Green hedged barrier running along the right side of the road, separating the roadway from pedestrian areas",
+      "explanation": "The barrier indicates the boundary of the roadway. The ego car must stay within the road limits and not cross into the pedestrian area."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should reduce speed and prepare to either stop or change lanes to the left if the adjacent lane is clear. Observe the surroundings for any road workers or additional signals that indicate how to navigate past the construction vehicle safely. Continue to monitor the situation and adjust the driving behavior in real-time as new information becomes available."
+  ]
+}

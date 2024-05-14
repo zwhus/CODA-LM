@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "A dark-colored sedan parked on the side of the road to the left.",
+      "explanation": "Although parked, it is important for the ego car to keep a safe distance to avoid any unexpected doors opening or pedestrians emerging from behind the vehicle."
+    },
+    {
+      "description": "Several cars parked on the side of the road ahead on the right.",
+      "explanation": "The ego car should monitor these parked cars for any signs of movement or brake lights which could indicate a vehicle is about to pull out into traffic."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There are trash bins and some accumulated trash visible on the right curb of the road, next to the parked vehicles",
+      "explanation": "The presence of roadside trash and bins suggests the ego car should be cautious of potential debris or animal activity that could affect driving conditions."
+    }
+  ],
+  "suggestions": [
+    "The ego car should maintain a safe distance from the parked vehicles to avoid a collision, especially with the closest one to the travel lane. Keep in the current lane while passing the parked cars and bins, ensuring enough clearance. Regular speed can be maintained due to clear road conditions. Stay vigilant for any sudden changes, such as pedestrians that might emerge from between the parked vehicles or any potential movement of the bins."
+  ]
+}

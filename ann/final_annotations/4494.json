@@ -1,0 +1,17 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "Large spools of cable positioned on the side of the road, with some lying horizontally and others standing vertically, a semi-trailer partially visible on the left side",
+      "explanation": "The objects are stationary and do not pose an immediate risk to the ego vehicle, but their presence indicates an industrial area which could lead to unexpected vehicle or pedestrian activity."
+    }
+  ],
+  "suggestions": [
+    "Maintain low speed and heightened awareness due to potential for unexpected hazards, such as moving equipment or sudden appearance of workers or other vehicles. Proceed with caution as the area may not have regulated traffic patterns."
+  ]
+}

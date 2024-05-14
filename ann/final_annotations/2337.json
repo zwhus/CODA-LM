@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A series of parked trucks on both sides of the street, partially occupying both lanes of the two-way road with their respective cargo beds extending into the road from the sides",
+      "explanation": "The road is narrowed due to these obstructions, potentially causing navigational and safety challenges for the ego car. The ego car must navigate carefully to avoid collisions with the stationary vehicles or any unexpected movements from them."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "Accumulated debris and garbage on the right side of the road near the parked trucks.",
+      "explanation": "This could indicate a less maintained area. The ego car should be vigilant for unexpected obstacles or road users emerging from this clutter."
+    }
+  ],
+  "suggestions": [
+    "The ego car should reduce speed due to the wet road conditions to ensure safe stopping distances. It should continue to monitor the parked trucks, particularly watching for any movement from the blue truck on the opposite side that could suggest it is about to enter the road. Overtaking the parked trucks should be done with caution, giving a wide berth in case doors are opened or unseen pedestrians emerge. The ego car should also remain alert for any dynamic changes, such as the appearance of traffic signs, lights, or other road users not currently visible."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "A cement mixer truck on the right, ahead of the ego vehicle, with a person standing on a ladder attached to the mixer",
+      "explanation": "The presence of the truck narrows the drivable road space, and the person on the ladder indicates potential movement or unexpected actions, requiring caution from the ego vehicle."
+    },
+    {
+      "description": "A white van is parked on the left side of the road in front of a building, not actively obstructing the traffic.",
+      "explanation": "The van is stationary and does not pose an immediate threat to the ego-vehicle, but its presence requires attention in case it moves or if a pedestrian emerges from behind it."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A person is observed standing on a ladder placed on the cement mixer truck to the right side of the road",
+      "explanation": "This person poses a potential hazard as they could move or drop objects onto the road, requiring the ego vehicle to be cautious and prepared to stop or avoid obstacles."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego vehicle should slow down and maintain a safe distance from the cement mixer truck and the person on the ladder. It should stay alert for potential hazards from the worksite on the right, such as personnel entering the road or debris that could be hazardous. Lane positioning should be adjusted to the left within the lane to maximize distance from the parked vehicles and the construction zone. Continue to monitor for any movements from the person on the truck ladder and be ready to respond appropriately to ensure safety."
+  ]
+}

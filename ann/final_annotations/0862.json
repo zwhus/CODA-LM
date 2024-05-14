@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "One car is visible, it is white and positioned on the right side of the ego car, slightly ahead, and appears to be leaving a parking spot or maneuvering within it.",
+      "explanation": "This vehicle could affect the driving behavior of the ego car by potentially entering the lane of the ego car, which requires caution and readiness to react."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Blue and white traffic cones arranged in a line to the right side, guiding traffic away from an area that seems to be restricted, possibly reserved parking or a non-access area.",
+      "explanation": "The cones indicate a zone that is not to be entered by vehicles, and they help in channelling the traffic flow."
+    }
+  ],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Proceed with caution, being mindful of the marked pedestrian crossing ahead and maintaining a safe distance from the parked SUV on the right. Stay in the lane defined by the traffic cones, and be prepared for potential pedestrians or vehicles entering the roadway from the right. Monitor the situation as you approach to adjust speed or stop if necessary."
+  ]
+}

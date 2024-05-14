@@ -1,0 +1,27 @@
+{
+  "vehicles": [
+    {
+      "description": "A heavy goods vehicle (HGV) directly ahead of the ego car, occupying the same lane, with visible construction equipment loaded on the back.",
+      "explanation": "The HGV's size and position require the ego car to maintain a safe following distance and be prepared to adjust speed accordingly, due to the potential for blind spots and the vehicle's slower acceleration and deceleration."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "Blue rectangular informational sign mounted on the right side of the road, above the HGV, indicating an upcoming feature or location, such as services or directions.",
+      "explanation": "While it does not directly impact driving behaviors, it may indirectly influence the ego car's navigation or route planning if the information pertains to the ego car's destination or journey."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "A series of traffic cones on the right side of the road, separating the driving lane from the shoulder",
+      "explanation": "These cones indicate that the shoulder is not to be used for driving and may suggest roadwork or a hazard off the road."
+    }
+  ],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe distance from the HGV in front, observing its brake lights and indicators as cues for potential turns or deceleration. Be prepared for slower responses from the HGV due to its size and load. Keep within the lane, respecting the traffic cones on the right. Monitor any relevant information presented by the traffic sign to aid in navigation or route planning."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A vehicle is parked to the right side of the road, partially visible behind some roadside vegetation.",
+      "explanation": "The vehicle's position may not affect the geometry of the roadway for driving but could be a potential hazard if it moves or if someone steps out from behind it unexpectedly."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "A center divider with vegetation is visible in the middle of the road, defining separate lanes",
+      "explanation": "This barrier dictates the flow of traffic and restricts the ego vehicle to its current lane, preventing any turns or overtaking across the divider."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Due to low visibility nighttime conditions, the ego car should maintain a lower speed to ensure safe reaction times. While the parked vehicle does not immediately obstruct the path, the ego car should be prepared for unexpected movements from it or potential pedestrians. Keeping a safe distance from the parked car and not deviating from the lane due to the median barrier would be advisable."
+  ]
+}

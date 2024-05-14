@@ -1,0 +1,27 @@
+{
+  "vehicles": [
+    {
+      "description": "A stopped car on the right side of the road with its rear hatch open and a person standing close to the vehicle, potentially loading or unloading items.",
+      "explanation": "This scene suggests a temporary obstruction in the right lane that would require vehicles to merge left or reduce speed to ensure safety."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A person standing between the open trunk of the parked car and the ego vehicle's lane, partially obstructing the lane.",
+      "explanation": "The person presents a potential hazard as they may step further into the road unexpectedly, creating a risk of collision."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "A row of parked bicycles on the side of the road just past the stopped car.",
+      "explanation": "While these objects do not immediately encroach upon the driving lane, their presence reinforces the need for heightened awareness in case of any unexpected movements by nearby pedestrians or cyclists."
+    }
+  ],
+  "suggestions": [
+    "Due to the stopped vehicle on the right and the person close to the traffic lane, the ego car should reduce speed and be prepared to merge left if it is safe to do so. If merging is not possible or unsafe, the ego car should slow down to a safe speed, pass the obstruction with caution, and monitor for any unexpected pedestrian movement."
+  ]
+}

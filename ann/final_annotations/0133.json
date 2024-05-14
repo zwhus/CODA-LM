@@ -1,0 +1,40 @@
+{
+  "vehicles": [
+    {
+      "description": "A black SUV parked at the end of the row on the right side, positioned closer to the driving lane",
+      "explanation": "The position of the SUV may limit visibility for the ego car and requires extra caution in case the SUV initiates a maneuver."
+    },
+    {
+      "description": "A red car in the foreground on the right, positioned at an angle suggesting it may be pulling into or out of parking",
+      "explanation": "The orientation and position of the red car could indicate an imminent movement that requires the ego car to be prepared to stop or yield."
+    },
+    {
+      "description": "Parked cars on both sides of the street, various makes and colors, mostly facing the same direction as the ego car.",
+      "explanation": "These parked cars narrow the usable road width, requiring careful navigation and reduced speed."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A motorcycle parked at the edge of the road on the far right.",
+      "explanation": "The motorcycle could decide to merge into traffic, requiring the ego vehicle to adjust speed or position."
+    },
+    {
+      "description": "Pedestrians visible on the sidewalk to the right, one is close to a pedestrian crossing.",
+      "explanation": "The presence of a pedestrian in the crosswalk demands that the ego car slows down or stops to give the right of way."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "Pedestrian crossing marked on the road, with road signs indicating its presence.",
+      "explanation": "The marked pedestrian crossing alerts the ego car to be ready to yield to pedestrians."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+  ],
+  "suggestions": [
+    "Proceed with caution, maintain a reduced speed to respond to the possible actions of the parked vehicles, especially the red car, and be prepared to stop for the crossing pedestrian. Keep a safe distance from parked vehicles to allow maneuvering room in case a vehicle pulls out unexpectedly or pedestrians enter the roadway from between parked cars. Ensure the right of way is given to the pedestrian on the crosswalk."
+  ]
+}

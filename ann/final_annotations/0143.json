@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "A red car ahead in the same lane as the ego car, moving in the same direction.",
+      "explanation": "This vehicle may slow down or stop, requiring the ego car to adjust its speed."
+    },
+    {
+      "description": "A bus ahead in the left lane, also moving in the same direction as the ego car.",
+      "explanation": "The bus might make frequent stops which can affect traffic flow; the ego car needs to be prepared for sudden stops or pedestrians entering the crosswalk as passengers embark or disembark."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A pedestrian is standing near the cycle, wearing wearing a yellow vest and a red helmet.",
+      "explanation": "The stationary position of the pedestrian is not an immediate concern, but caution is advised in case of unexpected entry into the roadway."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Orange traffic cones to the left, partially blocking the left lane where the bus is travelling.",
+      "explanation": "These indicate that part of the left lane may be unavailable and could cause the bus or other vehicles to merge into the ego car's lane, requiring vigilance and potential lane changes."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "Temporary blue fences are erected to the ego car's left, indicating an area of construction or blocked off for some reason.",
+      "explanation": "These barriers reinforce the areas that are out of bounds for the ego car and that the adjacent lane may be affected by merging vehicles from or into the construction zone."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe distance from the red hatchback car ahead, be prepared to adjust speed accordingly. Monitor the yellow bus for any stop signals, and be ready to change lanes if necessary to maintain a steady flow of traffic. Keep a watchful eye on the cyclist to the right and maintain a safe distance, be prepared to slow down or change lanes if the cyclist enters the roadway. Continue monitoring the pedestrian near the cyclist for any changes in behavior that could impact road safety. Lastly, remain aware of the reduced road width due to traffic cones and barriers, adjust lane positioning if needed and proceed with caution through the construction area."
+  ]
+}

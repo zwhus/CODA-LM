@@ -1,0 +1,15 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Metal barriers are separating the roadway from the sidewalk, extending along the right side of the road.",
+      "explanation": "These barriers prevent direct access to the sidewalk and ensure that pedestrians and cyclists are segregated from the flow of road traffic."
+    }
+  ],
+  "other objects": [],
+  "suggestions": []
+}

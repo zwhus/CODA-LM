@@ -1,0 +1,44 @@
+{
+  "vehicles": [
+    {
+      "description": "Red SUV directly in front of the ego car, in the same lane, indicating it is a leading vehicle.",
+      "explanation": "The red SUV's position and movement will directly affect the ego car's speed and following distance."
+    },
+    {
+      "description": "Dark car on the left lane going in the same direction as the ego car.",
+      "explanation": "The car's presence in the adjacent lane is important to consider for lane change decisions."
+    }
+  ],
+  "vulnerable_road_users": [
+  ],
+  "traffic signs": [
+    {
+      "description": "There is a 'no parking' sign on the right side of the road.",
+      "explanation": "This sign does not immediately influence driving behavior, but indicates parking restrictions on the side of the road."
+    },
+    {
+      "description": "An overhead gantry shows a speed limit sign of 60 km/h with directional arrows for lane usage overhead.",
+      "explanation": "The speed limit sign informs the ego car of the maximum travel speed, while the arrows indicate available lane directions for navigating the road ahead."
+    }
+  ],
+  "traffic lights": [
+  ],
+  "traffic cones": [
+    {
+      "description": "A traffic cone is placed to the right side of the ego vehicle.",
+      "explanation": "The traffic cone may indicate potential hazards or areas to avoid, possibly redirecting traffic flow or alerting to construction or road work."
+      }
+  ],
+  "barriers": [
+  ],
+  "other objects": [
+    {
+      "description": "Series of bicycles parked on the right side of the road, behind the barrier.",
+      "explanation": "While stationary, their proximity to the road could become a concern if someone was to access them."
+    }
+
+  ],
+  "suggestions": [
+    "Maintain a safe following distance from the red SUV ahead as it dictates the pace of traffic. Adhere to the 60 km/h speed limit as indicated by the traffic sign. Stay alert for any unexpected movements from the bus and parked bicycles to the right. Caution should be exercised due to the traffic cone on the right, suggesting a potential road hazard or construction, although it does not presently affect the drivable path."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "A large construction vehicle with a yellow-colored upper body and flashing warning lights is in front of the ego vehicle, occupying the same lane and moving in the same direction.",
+      "explanation": "The construction vehicle could be slow-moving or might make sudden stops, which requires the ego vehicle to maintain a safe following distance and be prepared to slow down or stop."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should reduce speed and follow the construction vehicle at a safe distance, preparing for potential stops or slow movement. If it's safe and legal to do so, and if the road markings permit, the ego car may consider changing lanes to overtake the construction vehicle to maintain a steady flow of traffic."
+  ]
+}

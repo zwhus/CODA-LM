@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "A white van directly in front of the ego car, illuminated brake lights activated, suggesting the vehicle is either slowing down or at a complete stop. The van is occupying the same lane as the ego car, indicating close proximity.",
+      "explanation": "The van's brake lights and position directly influence the ego car's speed and following distance, requiring the ego car to slow down or maintain a safe distance to prevent a collision."
+    },
+    {
+      "description": "Red tail lights of another vehicle are visible ahead of the white van, suggesting it is also part of the traffic condition.",
+      "explanation": "The presence of multiple vehicles in the line of traffic indicates that there may be traffic congestion or a stoppage ahead, which the ego vehicle should be prepared for."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe distance from the van, staying alert for any sudden stops or turns. The ego car should have its headlights on to ensure maximum visibility and rely on its sensors to detect any other road users that might be difficult to see due to the low light conditions. The speed should be adjusted to ensure that the car can safely respond to the actions of the van in front and any other potential hazards that may arise due to the night-time driving conditions."
+  ]
+}

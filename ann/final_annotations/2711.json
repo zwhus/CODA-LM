@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "Truck ahead in the same lane, partially occupying the lane and possibly slowing down traffic flow.",
+      "explanation": "The ego car must be prepared to slow down or stop depending on the truck's actions. Further, if the truck is stationary or moving very slowly, the ego car might have to change lanes to maintain smooth traffic flow."
+    },
+    {
+      "description": "Excavator and dump truck on the right side of the road, engaged in construction work.",
+      "explanation": "These stationary vehicles signify construction activity. There is a potential risk of construction workers or sudden vehicle movements in the area, necessitating increased caution and readiness to react."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Due to the large truck in the same lane ahead and the construction activity on the right side, the ego car should maintain a safe following distance from the truck. It should anticipate potential stops or slow movement from the truck and be vigilant for any construction workers or equipment that may enter the roadway. It is recommended to reduce speed and be prepared to stop if necessary while passing the construction area. Keep an eye out for any temporary traffic signs that might be obscured by the vehicles and stay ready to comply with them."
+  ]
+}

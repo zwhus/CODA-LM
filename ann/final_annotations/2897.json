@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "A green concrete mixer truck directly in front of the ego car, occupying the same lane with indications of construction material on the back.",
+      "explanation": "Due to its large size and heavy load, this vehicle may move slower or make sudden stops, which can affect the ego car's speed and require increased following distance."
+    },
+    {
+      "description": "Multiple cars on the left lane driving in a parallel direction to the ego car.",
+      "explanation": "These vehicles need to be monitored for potential lane changes or disturbances in traffic flow."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the concrete mixer truck, being prepared for slower reactions from the heavy vehicle. Monitor the vehicles in the left lane in case they decide to merge into the ego car's lane, which would require adjusting speed or lane position. Pass the cyclist with sufficient lateral clearance to ensure safety. Be observant of any possible pedestrian activity close to the roadway and continue to scan the environment for any other potential hazards, adjusting speed accordingly to maintain safety margins."
+  ]
+}

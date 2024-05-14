@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "A white sedan directly in front of the ego car, moving in the same direction",
+      "explanation": "This vehicle's speed and trajectory will directly affect the ego car's ability to maintain a safe following distance and speed."
+    },
+    {
+      "description": "A white van in the right lane, positioned slightly ahead of the ego car.",
+      "explanation": "The van could potentially change lanes or slow down, requiring the ego car to be prepared for such maneuvers."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "Cautionary signs with red and white stripes on barriers, indicating a construction zone or road narrowing.",
+      "explanation": "These signs alert the ego car to potential hazards and require reduced speed and increased attentiveness."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "A series of orange and white traffic cones starting from the ego car's lane and extending forward, indicating a lane closure or construction zone",
+      "explanation": "These cones signal a reduced road width or potential obstructions, requiring the ego car to slow down and possibly merge into an adjacent lane."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "Temporary concrete and metal barriers with highly visible patterns on the right-hand side, separating the construction zone from the active lanes.",
+      "explanation": "These barriers are protective measures that require the ego car to keep a safe lateral distance to avoid collisions."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe distance from the vehicle ahead while preparing to merge left if needed due to the coned-off area ahead. Monitor the van's movement as it could influence the merging space and timing. Reduce speed appropriately to maneuver safely in the construction zone and be alert for any changes in traffic flow or additional signage as the ego car approaches the overhead directional signs for further instructions on navigation."
+  ]
+}

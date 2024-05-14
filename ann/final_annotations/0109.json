@@ -1,0 +1,39 @@
+{
+  "vehicles": [
+    {
+      "description": "A black van directly in front of the ego vehicle, positioned centrally on the road, presumably moving slowly or stopped given its position close to the crosswalk",
+      "explanation": "This vehicle's presence requires the ego car to maintain a safe following distance and be prepared to stop or maneuver according to the van's actions."
+    },
+    {
+      "description": "Several cars parked on the side of the road to the left, not obstructing the active driving lane",
+      "explanation": "These parked cars do not immediately affect the ego car's path but do inform about potential road users that may emerge from in between parked cars. Vigilance is necessary."
+    },
+    {
+      "description": "A white car is in the left adjacent lane, slightly ahead of the ego car.",
+      "explanation": "The ego car must monitor this vehicle to anticipate potential lane changes or turns."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Pedestrians crossing the road on the crosswalk to the right and in the distance on the left, indicating the ego vehicle may be approaching a traffic signal or that the pedestrian crossing phase is active",
+      "explanation": "The ego car must be prepared to yield to pedestrians in the crosswalk to comply with traffic laws and ensure safety."
+    },
+    {
+      "description": "A cyclist is in the bike lane to the right of the ego car, moving in the same direction.",
+      "explanation": "The ego car should be cautious to not encroach onto the bike lane and be alert for any potential maneuvers by the cyclist."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Red and white barriers are placed on the right, marking the separation of the bike lane and the main road.",
+      "explanation": "These cones indicate the boundaries of driving lanes and areas that are off-limits to the ego car, helping to prevent encroachment into the bike lane."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should maintain a safe following distance from the black van ahead, be prepared to stop should the traffic light change, and monitor the white car's activity in the adjacent lane for possible lane-change or turn indications. Additionally, keep an eye on the bike lane and the movements of the cyclist to avoid any potential conflicts. Finally, be mindful of pedestrians on the sidewalk who may enter the roadway unexpectedly. Watch for any traffic signs or road state changes as the ego car progresses."
+  ]
+}

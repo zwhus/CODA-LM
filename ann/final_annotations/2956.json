@@ -1,0 +1,37 @@
+{
+  "vehicles": [
+    {
+      "description": "Several distant vehicles are observed down the road, facing the ego vehicle, likely waiting for a traffic signal or in the process of moving.",
+      "explanation": "The actions of these vehicles are important for anticipating future movements and whether the ego vehicle may need to yield or stop."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A pedestrian midway through the zebra crossing, moving from the ego vehicle\u2019s right to left.",
+      "explanation": "This pedestrian has the right of way and poses an immediate need for the ego vehicle to yield."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "A zebra crossing sign is visible to the right of the pedestrian, indicating a pedestrian crossing zone.",
+      "explanation": "This sign reinforces the need for the ego vehicle to be cautious and yield to pedestrians."
+    }
+  ],
+  "traffic lights": [
+    {
+      "description": "A traffic light can be seen in the distance displaying a green signal.",
+      "explanation": "The green traffic light indicates it is permitted to go, but the presence of the pedestrian and dog require the vehicle to stop regardless of the green light."
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "There is a fence on the right side but it is outside of the direct road area.",
+      "explanation": "The fence does not impact the immediate driving path but outlines the boundary of the road space."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego vehicle should reduce speed and prepare to stop if necessary to allow the pedestrian to cross safely. It should also observe the movement of the green car on the left to anticipate possible lane changes or speed adjustments. The ego vehicle should continue to approach the traffic light with caution, preparing to stop if the light is red. Attention should be maintained for the distant vehicles' movements and any potential directional changes that may affect the ego vehicle."
+  ]
+}

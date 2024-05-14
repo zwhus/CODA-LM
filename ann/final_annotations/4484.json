@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "A parked car on the right side of the road, dark in color, with no visible activity around it.",
+      "explanation": "This vehicle could potentially start moving or open a door, so it should be monitored. The ego car will need to maintain a safe lateral distance when passing."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Since there are no immediate hazards or traffic signals visible, and the parked car does not pose an immediate threat, the ego car should proceed with caution, maintaining a safe speed and being prepared to stop or maneuver if the parked vehicle shows signs of movement. The ego car should also be ready to react to any unexpected events, such as pedestrians or other vehicles not visible in this image."
+  ]
+}

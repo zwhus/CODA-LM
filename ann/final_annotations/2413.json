@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "There is a large yellow construction vehicle occupying the right lane, taking up most of the lane's width.",
+      "explanation": "Its presence and size are significant and may obstruct the ego vehicle's path or slow down the traffic flow, requiring a possible lane change or reduction in speed."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Proceed with caution and prepare to reduce speed. Be ready to perform a lane change to the left if the road width and traffic conditions permit, to safely navigate past the construction vehicle. Ensure to check mirrors and blind spots before changing lanes. Maintain a safe distance from the vehicle to allow for unexpected movements or doors opening. If unable to change lanes due to oncoming traffic or road rules, wait for a safe opportunity to pass the construction vehicle."
+  ]
+}

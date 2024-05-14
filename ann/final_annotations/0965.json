@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "A large truck directly in front of the ego car, occupying the entire width of the driving lane, with bright brake lights indicating that it is either slowing down or stopped.",
+      "explanation": "This vehicle's size and position on the road directly impacts the ego car's ability to maneuver or overtake. The brake lights suggest a reduction in speed, which requires the ego car to slow down accordingly."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the truck to allow for adequate reaction time should the truck make sudden stops or turns. Prepare to slow down further or stop if the truck's brake lights suggest impending traffic conditions. Given the presence of concrete barriers, overtaking may not be safe, so the ego car should not attempt to pass the truck until a clear and safe opportunity arises. Stay alert for any road work signs or workers in the vicinity due to the presence of barriers, which could further affect driving decisions."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "A large bus is visible to the left of the ego vehicle, partially in another lane with its visual appearance suggesting it is either stopped or moving slowly.",
+      "explanation": "The bus may obstruct the lane and could potentially start moving into the ego vehicle's lane, which requires monitoring and readiness to adjust speed or change lanes."
+    },
+    {
+      "description": "A taxi is visible ahead of the ego vehicle, with passengers getting into the car, suggesting it may be stationary or preparing to move.",
+      "explanation": "The taxi may cause a temporary obstruction if it remains stationary to pick up passengers or moves off slowly, necessitating that the ego car should be prepared to stop or slow down."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Pedestrians are visible at the edge of the zebra crossing to the right of the scene, appearing to be waiting to cross or just starting to cross.",
+      "explanation": "The pedestrians may enter the crosswalk, which could require the ego car to yield."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Traffic cones are placed at the centre of the road, creating a barrier between two lanes,",
+      "explanation": "These cones indicate that there are changes in normal traffic patterns and could be suggestive of road work, lane mergers or closures, thus the ego car needs to respect the new lane limits and adjust its position accordingly."
+    }
+  ],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should maintain a cautious speed, monitoring the bus on the left for any potential merging movement and ready to yield to the taxi if it makes unexpected manoeuvres. Additionally, the driver should be prepared to stop for pedestrians at the crosswalk. Following the traffic sign, the ego vehicle must prepare to take the left bend in the road while staying in the left lane due to the traffic cones indicating the closure of the right lane. Maintaining heightened awareness of the surroundings and adjusting speed according to the behaviors of the bus, taxi, and pedestrians would ensure safe passage through the traffic scene."
+  ]
+}

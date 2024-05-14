@@ -1,0 +1,47 @@
+{
+  "vehicles": [
+    {
+      "description": "A gray SUV in the right lane, driving straight ahead",
+      "explanation": "The SUV is traveling in a directly adjacent lane and should be monitored for any sudden lane changes or stops."
+    },
+    {
+      "description": "A white sedan is positioned on the left side of the ego vehicle, slightly ahead.",
+      "explanation": "The white sedan may influence the driving behavior if it decides to change lanes or slow down for a turn, which requires the ego car to monitor its actions."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Pedestrians gathered at the corner of the crosswalk on the sidewalk",
+      "explanation": "Pedestrians nearby suggest caution, especially if they enter the crosswalk or if the light changes indicating their right of way."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "A no left turn sign is visible on the left, mounted on a portable stand.",
+      "explanation": "This instructs drivers not to take any left turns from this lane, which is a mandatory instruction for route planning."
+    }
+  ],
+  "traffic lights": [
+    {
+      "description": "A traffic light showing green is visible on the left, beside the no left turn sign.",
+      "explanation": "The green light indicates that the ego vehicle can proceed forward, but must not turn left due to the sign."
+    }
+  ],
+  "traffic cones": [
+    {
+      "description": "Traffic cones are placed around the no left turn sign",
+      "explanation": "The cones indicate temporary traffic control measures, likely for construction or an event, dictating caution and potentially reduced lane width."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "White and blue road barriers lining the edge of the pedestrian area",
+      "explanation": "These barriers define the pedestrian area and work zone, requiring vehicles to keep clear and maintain a safe distance."
+    }
+  ],
+  "other objects": [
+  ],
+  "suggestions": [
+    "Monitor the white sedan on the left for potential lane changes. Keep a safe distance from the SUV ahead to anticipate stops or deceleration. Be prepared to yield to any pedestrians, although they are currently behind barriers. Continue straight as the green light is on, but left turns are not permitted, so a different route may be needed if a left turn was planned. Navigate around the traffic cones and barriers without encroaching into the adjacent lane or pedestrian zone."
+  ]
+}

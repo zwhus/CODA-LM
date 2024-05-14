@@ -1,0 +1,22 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "A series of orange and white traffic cones are placed in a line in the left lane, starting from the bottom left corner and extending towards the upper part of the image.",
+      "explanation": "These traffic cones are likely indicating some form of road work or lane closure ahead, requiring vehicles to merge right if they are in the affected lane."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "Safety barriers run along both sides of the road, with a more solid barrier in the median to divide opposite lanes of traffic.",
+      "explanation": "Barriers are designed to prevent vehicles from leaving the roadway or crossing into oncoming traffic, which provides a guard for safety but also restricts escape routes."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain lane while observing the traffic cones which signal a potential lane shift or obstruction. There is no indication to change speed, but stay vigilant for any road work signs or further indications that might require speed adjustment or lane change."
+  ]
+}

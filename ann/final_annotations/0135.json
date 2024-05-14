@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "A heavy truck is present ahead in the same lane, moving in the same direction as the ego car.",
+      "explanation": "Since it occupies the lane and is relatively slow-moving, it may necessitate a lane change or speed adjustment for the ego car."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "Directional signs above the road indicate straight through movement for the lane the ego car is in, with other directions indicated for adjacent lanes.",
+      "explanation": "This helps in route planning and confirms that the ego car's lane is for going straight."
+    },
+    {
+      "description": "A No Entry sign is visible to the right side of the image indicating the road is closed for entry, along with an arrow sign indicating a detour or diversion to the left. Additionally, there is a directional sign pointing left for a detour ahead",
+      "explanation": "These signs instruct the ego car to not proceed straight ahead and instead prepare to follow the detour to the left."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Traffic cones are aligned in a row, separating the construction area on the left from the drivable lanes on the right.",
+      "explanation": "These indicate that the area to the left is a no-driving zone and possibly a construction site, ensuring that the ego car does not enter this area."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "There are yellow and red striped barriers to the left side extending ahead, probably demarcating construction work or a closed section on the adjacent lane",
+      "explanation": "These barriers indicate the potential presence of construction or road work ahead, suggesting reduced road width and requiring additional caution from the ego car."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Given the traffic signs and road situation, the ego car should prepare to make a left turn to follow the detour. It should reduce speed to ensure a safe following distance from the truck, avoid overtaking due to the road closure indicated on the right, and watch for any new signage or changes in the road layout due to the construction or work indicated by the barriers."
+  ]
+}

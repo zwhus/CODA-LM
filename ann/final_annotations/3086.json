@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "White van on the right side of the construction vehicle, partially visible with rear lights on moving in the same direction as the ego car.",
+      "explanation": "The presence of the van indicates that there may be limited space for the ego car to maneuver or change lanes, thus the ego car's lateral movement options might be constrained."
+    },
+    {
+      "description": "A large piece of construction machinery is occupying the center of the lane directly ahead of the ego car, with red and yellow warning lights visible on its rear.",
+      "explanation": "This vehicle is a potential hazard as it is obstructing the lane and may be moving slowly or unpredictably, requiring the ego car to slow down or change lanes to maintain a safe following distance."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the construction vehicle to allow for enough reaction time in case it stops abruptly or decreases its speed. Additionally, monitor the white van's movements and position relative to the ego car to avoid being in its blind spot and to be prepared for potential lane changes or other maneuvers by this vehicle. Stay vigilant for any road signs or changes in road conditions that may not be immediately visible due to the large construction vehicle."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "Mopeds parked on the right side, beside the walking area.",
+      "explanation": "These parked mopeds are not an immediate hazard but indicate the presence of potential moped riders who may enter traffic."
+    },
+    {
+      "description": "A school bus is visible on the left side of the image, parked by the roadside in front of a yellow building. Its position is at an angle slightly facing the ego car, suggesting it may be in the process of stopping or has already stopped to pick up or drop off children.",
+      "explanation": "The school bus may cause children to be nearby, and the possibility of its movement requires caution."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A pedestrian with a green bag, walking a dog, approaching the edge of the sidewalk on the right, heading towards the ego car's lane.",
+      "explanation": "The pedestrian's proximity to the edge of the sidewalk and their current direction of movement raise the risk of them stepping into the roadway."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should slow down due to the complex environment combining parked vehicles, a pedestrian potentially entering the road, and road construction. The driver should be prepared to stop if the pedestrian steps into the roadway and navigate carefully around the roadwork, giving a wide berth to the cones and the construction site to ensure the safety of road workers and other road users."
+  ]
+}

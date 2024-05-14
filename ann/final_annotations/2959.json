@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "Large white truck ahead occupying the lane, stationary with warning lights flashing.",
+      "explanation": "This truck indicates a potential road work or hazard ahead, signaling the ego vehicle to slow down or prepare to stop."
+    },
+    {
+      "description": "Brown truck on the right side, partially visible with rear lights on.",
+      "explanation": "The truck is on the shoulder or in a side lane of the road, which indicates that it may be stopped or moving slowly, requiring caution when passing."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Person with reflective gear between the construction vehicle and the truck on the right, near the lane of travel but seemingly off the roadway.",
+      "explanation": "This individual is a possible construction worker; their presence suggests ongoing road work, necessitating increased alertness and preparedness for sudden movements or instructions from the road workers."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "A series of orange and white traffic cones on the right, directing traffic flow.",
+      "explanation": "The cones could indicate a closed lane or road works, guiding the ego vehicle to stay in the current lane and alert for possible obstacles or workers on the road."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "Concrete median barriers on the left, separating traffic directions.",
+      "explanation": "The barriers define the lanes of travel and limit options for the ego car to maneuver to the left, emphasizing the need to stay in the current lane or carefully merge right if space permits."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Reduce speed and maintain a safe following distance from the construction vehicle ahead. Monitor the construction worker's signals and be prepared to stop or change lanes if necessary. Since the traffic cones indicate a tendency to merge left and there's a concrete barrier, check for an opening in traffic to the left and merge when it's safe. Continue to monitor the truck on the right as well. Use caution and proceed with low speed, recognizing the potential for sudden changes due to the roadwork."
+  ]
+}

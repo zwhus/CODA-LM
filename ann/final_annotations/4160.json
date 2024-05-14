@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A large yellow construction vehicle positioned in the left lane ahead of the ego car, with the back facing the ego car, partially obstructing the view of the road ahead.",
+      "explanation": "The construction vehicle's presence requires the ego car to either slow down or change lanes to maintain a safe following distance and prepare for potential stops or reduced speed ahead."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "A blue rectangular road sign on the right side of the road with white lettering and symbols indicating directions or locations",
+      "explanation": "This sign informs the driver about upcoming directions or points of interest but does not directly affect driving behavior"
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Reduce speed due to the wet road conditions and prepare to stop or navigate around the construction vehicle. Be vigilant for any additional signage or road work indicators, and follow any temporary traffic directions. Keep a safe following distance from any vehicles in front, including the construction vehicle, in case sudden stops are required."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "A light-colored sedan directly ahead in the same lane as the ego vehicle, apparently moving in the same direction.",
+      "explanation": "This vehicle sets the pace for the ego vehicle and constrains its ability to speed up or change lanes."
+    },
+    {
+      "description": "Blue car in the opposite lane, moving in the opposite direction.",
+      "explanation": "Presence suggests that visibility is clear and traffic is flowing in both directions."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There is debris on the road: at least three black objects scattered in the ego vehicle's lane ahead.",
+      "explanation": "This debris poses a potential hazard and requires the ego vehicle to maneuver around it to avoid damage."
+    }
+  ],
+  "suggestions": [
+    "Maintain a safe following distance behind the silver sedan, monitoring its speed and brake lights for changes in traffic flow. Prepare to make a lane change if the debris ahead becomes an obstacle and there is a safe opportunity to do so. Keep speed consistent with the flow of the surrounding traffic while remaining vigilant for any changes in the road conditions or traffic patterns."
+  ]
+}

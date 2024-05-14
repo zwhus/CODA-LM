@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "A blue sedan with roof signage indicating it could be a service vehicle, parked on the right side, in front of the ego vehicle.",
+      "explanation": "The positioning and status of the vehicle require caution, as the service vehicle might make unexpected movements, or the driver might return to the vehicle."
+    },
+    {
+      "description": "A white truck parked on the right side perpendicular to the ego car's path",
+      "explanation": "The truck is obstructing the view of the road ahead and may also start moving without notice, so the ego car should be cautious and prepared to stop or evade."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "Large industrial spools on the right-hand side and various items scattered around could indicate a working area or construction zone",
+      "explanation": "The presence of these objects suggests a higher likelihood of sudden obstructions or the entry of workers and vehicles into the road which the ego car needs to be prepared for."
+    }
+  ],
+  "suggestions": [
+    "The ego car should proceed with caution, being prepared to steer or lane-change to the left to avoid the blue sedan and white truck ahead, while maintaining awareness of potential other vehicles that may be navigating around the parked vehicles. Maintain a moderate speed to allow for timely reactions to any unseen hazards that may emerge from the industrial area."
+  ]
+}

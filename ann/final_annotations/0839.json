@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "A large, yellow, partially visible construction vehicle on the left with apparent signs of wear and possibly stationary",
+      "explanation": "The vehicle's position obstructs the driving lane, posing a potential hazard for the ego car."
+    },
+    {
+      "description": "A white car parked on the right side of the road facing away from the ego car",
+      "explanation": "The parked car is stationary but does not appear to be an immediate obstacle for the ego car."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There are trees and bushes along the sidewalk that limit visibility to the right, possibly concealing pedestrians or other road users.",
+      "explanation": "Caution should be exercised due to potentially reduced visibility around these areas."
+    }
+  ],
+  "suggestions": [
+    "The ego vehicle should slow down and proceed with caution due to the reduced visibility caused by the large construction vehicle and the potential for hidden hazards. The parked car on the right also reduces the effective width of the roadway, so the ego vehicle should be prepared to stop or yield if oncoming traffic is present on the other side of the construction vehicle."
+  ]
+}

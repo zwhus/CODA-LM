@@ -1,0 +1,25 @@
+{
+  "vehicles": [
+    {
+      "description": "A large truck with a white and illustrated cargo container is on the left side ahead of the ego car, partially occluding the traffic view and occupying the neighboring lane.",
+      "explanation": "The presence of the truck may restrict visibility and maneuvering space for the ego car."
+    },
+    {
+      "description": "Several cars are visible in the right-hand lane, indicating congested traffic conditions.",
+      "explanation": "The congested traffic flow suggests that the ego car must drive cautiously, anticipate the flow of surrounding vehicles, and stay alert for braking vehicles."
+    },
+    {
+      "description": "A construction vehicle with a red back and mechanical arm is directly ahead in the same lane as the ego car, likely moving at a lower speed due to its size and function",
+      "explanation": "This vehicle could unexpectedly stop or move slower than other traffic, requiring the ego car to maintain a safe following distance and be prepared for sudden stops."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Given the current traffic situation with a large truck and a specialized construction vehicle ahead, the ego car should maintain a safe following distance from these vehicles and be prepared to adjust speed or change lanes if necessary to maintain a smooth and safe flow of traffic. The ego car should also be aware of the other vehicles in adjacent lanes and be cautious of any unexpected lane changes or stops."
+  ]
+}

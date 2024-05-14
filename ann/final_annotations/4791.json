@@ -1,0 +1,23 @@
+{
+  "vehicles": [
+    {
+      "description": "A white van parked on the right side of the road, slightly angled towards the building it is next to.",
+      "explanation": "The van is stationary and does not immediately affect the path of the ego car, but the ego car should be cautious in case someone steps out from behind or enters the van unexpectedly."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "A collection of objects, possibly trash bins and bags, is located on the right side of the road, illuminated by the headlights of the vehicle.",
+      "explanation": "These objects could present a hazard if they were to encroach upon the roadway, so they should be monitored by the ego car's sensors."
+    }
+  ],
+  "suggestions": [
+    "Proceed with caution, maintain a low speed, and prepare to potentially change lanes if the road ahead is obstructed by the parked vehicle or the traffic cones. Stay vigilant as the street lighting conditions are poor, which might reduce visibility of any additional hazards or road users not currently visible.",
+    "Proceed with caution due to low-light conditions and the potential for unexpected obstacles on or near the roadway. Continue to observe the green traffic light and prepare for any changes in the signal as the ego car approaches the intersection. Keep an eye on the roadside objects to ensure they do not enter the driving lane, which could necessitate evasive maneuvers."
+  ]
+}

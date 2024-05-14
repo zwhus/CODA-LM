@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "There is a large, brown truck in the direct path of the ego car. The back of the truck is illuminated by the ego car's headlights, making it clearly visible. Its brake lights are not activated, indicating it may be moving or stationary.",
+      "explanation": "As the main obstacle in the ego car's path, the presence and behavior of this truck have a significant influence on the ego car's driving behavior."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should maintain a safe following distance from the truck considering the reduced visibility and potentially slippery road conditions. It is advised to reduce speed and prepare to stop if necessary. The ego car should watch for any brake lights or indicators from the truck that may signal its intentions. It should also be prepared to change lanes if the truck appears stationary and there is the option to do so safely."
+  ]
+}

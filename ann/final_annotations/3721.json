@@ -1,0 +1,17 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There is a small, possibly reflective object on the right edge of the road ahead, but its nature is unclear due to low visibility.",
+      "explanation": "Unknown objects present a risk and should be cautiously approached in case they are a hazard."
+    }
+  ],
+  "suggestions": [
+    "Due to limited visibility and potentially wet road conditions, the ego car should proceed with caution. The headlights should be used to increase visibility and to alert any unseen road users. The vehicle's speed should be reduced to accommodate for the decreased traction and increased stopping distances, ensuring the car can stop safely if unexpected obstacles appear. Additionally, the ego car's sensors and cameras should be relied upon to detect any hard-to-see road users or objects, and the appropriate defensive driving adjustments made accordingly."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "A white van is positioned in the rightmost lane relative to the ego car and appears to be moving in the same direction.",
+      "explanation": "Its proximity and position may require the ego car to maintain or reduce speed and stay in the current lane to ensure safe driving distance."
+    },
+    {
+      "description": "A small white car is visible further down the road in the center lane, also traveling in the same direction as the ego car.",
+      "explanation": "The distance provides ample reaction time for the ego car, but its presence should still be monitored for potential lane changes or speed adjustments."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Orange and white traffic cones are positioned in the left lane, indicating a lane closure or road works ahead.",
+      "explanation": "These cones affect the drivable path options for the ego car, requiring a potential lane change if the ego vehicle is currently in the left lane or a need to remain in the current lane if already in the center or right lane."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "There are blue barriers with reflective elements on top, running parallel to the lanes on the left side of the highway.",
+      "explanation": "The barriers are used to separate traffic moving in opposite directions or to protect vehicles from adjacent hazards. Ego car must maintain a safe distance."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Given the presence of the white van in the adjacent right lane, maintain a safe following distance and be prepared to adjust speed or change lanes if the van changes its behavior. Pay attention to the traffic cones indicating a lane closure ahead; if in the left lane, prepare to merge right when it is safe to do so. Due to the wet road conditions, reduce speed accordingly and increase the following distance behind the white car in the center lane to account for the reduced traction. Monitor the road conditions for any further indicators of road works or obstacles."
+  ]
+}

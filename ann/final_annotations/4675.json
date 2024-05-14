@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "White car parked on the right side of the road facing away from the ego car.",
+      "explanation": "This vehicle is stationary, but its positioning on the side of the road could narrow the driving lane for the ego car and require careful navigation to maintain a safe distance."
+    },
+    {
+      "description": "Several parked vehicles are visible on the right side of the road, reducing the usable width of the lane.",
+      "explanation": "Parked vehicles narrow the available driving space for the ego car and could hide moving pedestrians or other hazards."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Given the visible conditions, the ego car should proceed with caution, keeping a safe distance from the vehicle ahead and the parked car on the side. Adjust speed to ensure a safe reaction time if the road surface is indeed wet. Continuously monitor for any movement from the parked cars that could indicate a vehicle pulling into traffic."
+  ]
+}

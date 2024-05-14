@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "A white sedan on the left lane moving in the same direction as the ego car",
+      "explanation": "This vehicle is a dynamic object that may change speed or switch lanes, thus potentially affecting the ego car's driving behavior."
+    },
+    {
+      "description": "A white car is in the distance, in the center lane, also moving in the same direction",
+      "explanation": "This vehicle could influence lane choice and speed adjustments depending on its trajectory and speed"
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "There is a median barrier separating the opposing lanes of traffic",
+      "explanation": "This barrier guides the ego car's understanding of the road layout and prevents any vehicles from oncoming traffic lanes from accidentally crossing over."
+    }
+  ],
+  "other objects": [
+    {
+      "description": "Some small debris is scattered in the center of the two lanes ahead",
+      "explanation": "It may require the ego vehicle to adjust the lane position slightly to avoid the debris"
+    }
+  ],
+  "suggestions": [
+    "Maintain a safe following distance from the blue car ahead and prepare to adjust lane position if necessary to avoid the debris. Continue monitoring the distance to the white car in the center lane for any potential speed adjustments or lane changes that may be required. Stay in the current lane due to the median barrier to the left. Without any traffic signs or signals dictating behavior, the ego car should adhere to standard road rules and driving behavior."
+  ]
+}

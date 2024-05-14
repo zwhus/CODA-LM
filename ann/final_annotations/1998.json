@@ -1,0 +1,26 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [
+    {
+      "description": "Three individuals by the roadside near large cable spools, positioned close to the curb on the right side of the roadway, facing away from the ego-vehicle.",
+      "explanation": "The presence of pedestrians close to the driving lane may indicate potential for unexpected entry into the roadway, which requires the ego vehicle to be prepared to stop or slow down."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There are several individuals visible by the side of the road next to the large spools of cable, seemingly engaged in work or conversation.",
+      "explanation": "While these individuals are not on the road, they could potentially move into the roadway or cause distractions. Additionally, large spools and other materials near the roadside may influence driving behavior as they may indicate the presence of potential obstructions or workers near the road."
+    },
+    {
+      "description": "Large wooden spools and miscellaneous objects to the side of the road.",
+      "explanation": "These objects are stationary and off the road, but their proximity to the edge could pose a risk if they were to unexpectedly move or be affected by the pedestrians."
+    }
+  ],
+  "suggestions": [
+    "Due to the industrial setting and the presence of workers and materials near the roadside, the ego car should proceed with caution, maintain a moderate speed, and be prepared to stop or maneuver if an obstruction appears. Regular scanning of the environment for any new risks that might emerge from the industrial activity is advised. Since there are no traffic controls or road markings visible, the ego car should also be ready to yield to any oncoming or crossing traffic that may not be immediately visible."
+  ]
+}

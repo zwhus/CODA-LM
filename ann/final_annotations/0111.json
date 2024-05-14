@@ -1,0 +1,26 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [
+    {
+      "description": "One pedestrian crossing the road from left to right, in the middle of the crosswalk",
+      "explanation": "This person has the right of way and requires the ego car to give way and wait until the pedestrian has safely crossed"
+    },
+    {
+      "description": "Two cyclists on the right side, also moving across the road from left to right, within a designated bike lane on the crosswalk",
+      "explanation": "These cyclists are treated similarly to pedestrians in this scenario and have the right of way, necessitating that the ego car waits for them to clear the lane"
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "A traffic light directly ahead of the ego car, displaying a red signal",
+      "explanation": "The red light requires all vehicles to stop and not proceed through the intersection"
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should remain stationary at the traffic light and wait for the pedestrian and cyclists to complete crossing. The car should only proceed when the traffic light turns green and the crosswalk is clear of any road users, ensuring safe and lawful compliance with traffic signals and rights of way for vulnerable road users."
+  ]
+}

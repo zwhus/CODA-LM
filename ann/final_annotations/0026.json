@@ -1,0 +1,37 @@
+{
+  "vehicles": [
+    {
+      "description": "A bus on the right edge of the image, partially visible, appears to be in motion, moving from right to left across the image.",
+      "explanation": "The bus may influence driving decisions if it plans to change lanes or if the ego car needs to merge into traffic."
+    },
+    {
+      "description": "A motorcyclist in the bottom right corner wearing red, actively participating in traffic, moving from right to left across the image.",
+      "explanation": "The motorcyclist is closer to the ego car and could affect lane usage or merging decisions."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Various cyclists are visible moving across the crosswalk in the middle of the image. They are traveling from right to left, following the flow of the intersecting traffic.",
+      "explanation": "Cyclists need to be monitored for safety reasons and may influence the decision to yield."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "A traffic light is visible, showing a green light for the direction the ego car is heading,",
+      "explanation": "The green traffic light indicates that it is safe for the ego car to proceed, but attention must still be paid to the road users and the situation might change."
+    }
+  ],
+  "traffic cones": [
+  ],
+  "barriers": [
+    {
+      "description": "A single barrier post with a red and white tip is visible near the left edge of the image.",
+      "explanation": "This suggests lane demarcation or a no-entry zone for a section of the road and may require the ego car to maintain its lane position."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should continue to proceed while observing the green light but should do so with caution, especially accounting for the bus that could enlarge its trajectory into adjacent lanes and the motorcyclist who might attempt to overtake or change lanes abruptly. Furthermore, monitor the cyclists closely as they have the potential to move unpredictably. Maintain a safe following distance from all vehicles and be prepared to adjust speed or lane position as necessary while respecting the lane demarcations indicated by the barrier post."
+  ]
+}

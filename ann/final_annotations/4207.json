@@ -1,0 +1,30 @@
+{
+  "vehicles": [
+    {
+      "description": "A yellow construction vehicle is on the right side of the image, occupying part of the middle lane and preparing to merge or turn right.",
+      "explanation": "This vehicle's position and potential maneuverability directly affect the traffic flow and likely require other vehicles to slow down or change lanes to maintain a safe distance."
+    },
+    {
+      "description": "Various passenger cars are in view, positioned in their respective lanes mostly waiting in traffic.",
+      "explanation": "The density and behavior of these vehicles dictate the ego car's speed and lane choice. The composition of the traffic affects the ego car's ability to maneuver."
+    },
+    {
+      "description": "A parked truck is visible on the right side of the road, beyond the construction vehicle.",
+      "explanation": "The parked truck on the side may prompt nearby pedestrians or other road users to move unexpectedly around it, warranting caution."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A pedestrian is standing on the central reservation to the right, about to cross the street.",
+      "explanation": "The pedestrian could attempt to cross, which might affect traffic flow. The ego car must be prepared to yield if the pedestrian steps onto the roadway."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the construction vehicle ahead, be prepared to stop or slow down for it and any pedestrians who may enter the crosswalk. Stay vigilant of cars in adjacent lanes, as they may change lanes, especially if the construction vehicle stops or slows down. Monitor the pedestrian on the sidewalk and reduce speed when approaching the pedestrian crossing ahead. Overall, cautious driving with a lowered speed and heightened awareness in this congested area is advised."
+  ]
+}

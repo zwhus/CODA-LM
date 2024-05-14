@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "Large green construction vehicle directly in front of the ego vehicle, occupying the majority of the driving lane, with visible construction equipment and materials extending from its body, indicating that it is possibly a cement mixer or transport vehicle",
+      "explanation": "Its size, position, and potential for dropping debris directly affect the driving behavior of the ego car by requiring increased following distance and caution."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the large construction vehicle ahead, allowing for increased stopping distances due to the wet road conditions. Monitor the construction vehicle for any debris that may fall onto the road and be prepared to adjust course safely if necessary. Continually observe for any changes in the road environment and proceed with caution."
+  ]
+}

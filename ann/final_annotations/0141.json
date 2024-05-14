@@ -1,0 +1,35 @@
+{
+  "vehicles": [
+    {
+      "description": "A yellow car directly in front of the ego vehicle, displaying brake lights, indicating it is either slowing down or stopped.",
+      "explanation": "The ego car must maintain a safe following distance and be prepared to stop or slow down accordingly."
+    },
+    {
+      "description": "An oncoming vehicle with headlights on, approaching from the opposite direction.",
+      "explanation": "The ego car should ensure it is on the correct side of the road and be alert for any changes in the oncoming vehicle\u2019s trajectory."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A cyclist to the right side of the image, moving parallel to the ego vehicle.",
+      "explanation": "The ego car must be aware of the cyclist's presence and maintain a safe distance when passing."
+    },
+    {
+      "description": "A motorcyclist also to the right, overtaking the cyclist and moving in the same direction as the ego vehicle.",
+      "explanation": "The ego car should monitor the motorcyclist's position and speed, and adjust its driving strategy to avoid any potential conflict."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "The traffic light ahead is yellow, indicating that it is about to change to red.",
+      "explanation": "This signal warrants preparation to stop unless the ego car is too close to the intersection to safely do so, hence the decision should be made quickly based on the distance and current speed."
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe distance from the yellow car ahead, be prepared to stop or slow down, and pass the cyclist and motorcyclist with caution, giving them enough space. Observe the truck's movements and be ready to respond to any lane changes or stops. Continue to monitor the yellow traffic light."
+  ]
+}

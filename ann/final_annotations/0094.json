@@ -1,0 +1,28 @@
+{
+  "vehicles": [
+    {
+      "description": "A red utility vehicle further ahead in the same lane, also traveling in the same direction",
+      "explanation": "This vehicle's presence dictates the flow of traffic and the ego vehicle must adjust its speed accordingly."
+    },
+    {
+      "description": "A white compact SUV is ahead in the left lane, driving in the opposite direction.",
+      "explanation": "The speed and trajectory of this vehicle may affect the ego car's speed adjustment and following distance."
+    },
+    {
+      "description": "A large truck in the right lane traveling in the same direction",
+      "explanation": "The large truck could obscure the vision of the ego car for traffic ahead or potentially merge into the ego car's lane, requiring close monitoring."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+  ],
+  "barriers": [
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Monitor the silver sedan closely and prepare to slow down or take evasive action if necessary. Maintain a safe following distance from the white SUV ahead while also observing the red utility vehicle and the large truck further ahead for any changes in their driving behavior. Continue to stay alert and watch the green barrier for any indications of narrowed lanes or detours. Always be ready to adjust speed and lane position based on the road users' actions and any emerging traffic situations."
+  ]
+}

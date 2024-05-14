@@ -1,0 +1,40 @@
+{
+  "vehicles": [
+    {
+      "description": "A silver SUV directly in front of the ego car, with its brake lights on, indicating it is either slowing down or has come to a stop.",
+      "explanation": "The ego car will need to maintain a safe following distance and be prepared to stop if the vehicle ahead is stationary."
+    },
+    {
+      "description": "A bus is visible ahead of the silver car with its destination display lit, suggesting it might make frequent stops",
+      "explanation": "Be cautious as the bus may stop unexpectedly to pick up or drop off passengers, requiring the ego car to stop or slow down."
+    },
+    {
+      "description": "A white SUV is parked on the left side of the road, partially obstructing the lane.",
+      "explanation": "The ego car should slow down and be prepared to stop or yield to avoid the opening door or the person by the SUV."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A pedestrian wearing a dark cap and blue jacket, walking on the sidewalk to the right side of the ego car.",
+      "explanation": "This pedestrian is not currently affecting the ego car's driving behavior but should be monitored in case they step onto the road."
+    },
+    {
+      "description": "A cyclist in dark clothing riding on the bike lane to the right of the ego car, passing by the white truck.",
+      "explanation": "The ego car must be careful not to veer into the bike lane and should check for the cyclist when making any maneuvers to the right."
+    }
+
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "A single orange traffic cone placed on the right side of the road.",
+      "explanation": "The ego car should be aware of this traffic cone, as it could indicate road work or an obstacle ahead."
+    }
+  ],
+  "barriers": [],
+  "other objects": [
+  ],
+  "suggestions": [
+    "The ego car should maintain a safe following distance behind the silver car in front, be prepared to stop for both the bus that may be stopping and the pedestrian that might cross the road, and proceed with caution around the cyclist and parked vehicles. Changing lanes may be necessary if the left lane becomes obstructed due to the parked SUV or if road work is occurring on the right. Speed should be adjusted accordingly to ensure the safety of all road users and to respond effectively to the dynamic road situation."]
+}

@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "A large truck with a visible rear container on the left side of the ego car, slightly ahead.",
+      "explanation": "The truck's size and position might limit the visibility of road conditions ahead for the ego car, requiring additional caution."
+    },
+    {
+      "description": "Multiple vehicles in the right lane, with brake lights on, suggesting that traffic is slow or congested.",
+      "explanation": "The behavior of these vehicles indicates that there might be traffic congestion or an obstruction ahead."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Barrier walls on both sides of the road, suggesting a construction zone or narrowed road conditions.",
+      "explanation": "Constricted road space demands lower speeds and heightened spatial awareness."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the truck ahead, reducing speed if necessary due to the wet road conditions, and prepare for potential congestion as indicated by the brake lights of other vehicles. Stay in the current lane unless the traffic cones indicate an upcoming lane merge or closure, in which case, prepare to change lanes safely. Continue to monitor the traffic and road conditions, adjusting speed and following distances accordingly."
+  ]
+}

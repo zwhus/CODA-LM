@@ -1,0 +1,54 @@
+{
+  "vehicles": [
+    {
+      "description": "Various vehicles to the left and right visible in adjacent lanes and at the intersection ahead",
+      "explanation": "These vehicles are part of the surrounding traffic and understanding their positioning and potential movements will be crucial in navigating the intersection safely"
+    },
+    {
+      "description": "A white sedan directly in front of the ego vehicle in the same lane, with brake lights on, indicating a stop or reduction in speed.",
+      "explanation": "This vehicle directly impacts the immediate driving behavior of the ego car, requiring it to maintain a safe following distance and prepare to stop."
+    },
+    {
+      "description": "A bus to the left of frame, positioned in a lane that merges or intersects with the ego car's lane.",
+      "explanation": "The bus may influence the traffic flow and could require the ego car to adjust speed or change lanes to maintain a safe distance."
+    },
+    {
+      "description": "A grey SUV is in the right lane slightly ahead of the ego car, oriented in the same direction.",
+      "explanation": "Ego car should be cautious of the SUV's movements as it may change lanes or adjust speed."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A person wearing a reflective vest, standing in the road beside a no U-turn sign, possibly directing traffic or indicating a road condition ahead.",
+      "explanation": "The presence of a traffic director suggests unusual road conditions ahead and requires the ego vehicle to be ready to comply with potential directions or warnings."
+    },
+    {
+      "description": "Pedestrians are gathered on the right sidewalk.",
+      "explanation": "While they are not on the roadway, their proximity to the road indicates that the ego car should be alert for potential pedestrian crossings, especially at nearby crosswalks or intersections."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "no U-turn sign sign on the leftside of the road.",
+      "explanation": "This sign indicates a prohibited U-turn."
+    }
+  ],
+  "traffic lights": [
+    {
+      "description": "Traffic light is visible in the distance displaying a green light for the direction the ego car is traveling.",
+      "explanation": "The ego car is allowed to continue moving forward at its current pace but should remain observant as the traffic light could change to yellow, indicating the need to prepare to stop."
+    }
+  ],
+  "traffic cones": [
+    {
+      "description": "Orange traffic cones positioned on the road near the no U-turn sign, suggesting a temporary adjustment in traffic flow or a closed lane.",
+      "explanation": "These cones guide the traffic flow and indicate areas where the ego car should not drive, thereby limiting available lanes and potentially modifying the traffic pattern."
+    }
+  ],
+  "barriers": [],
+  "other objects": [
+  ],
+  "suggestions": [
+    "Maintain a safe following distance from the vehicle ahead, be prepared to stop as the traffic director and brake lights of the vehicle in front suggest potential traffic changes ahead. Do not attempt a U-turn due to the posted sign and traffic cones. Stay alert for any instructions from the traffic director and be aware of the green light in the distance, while ensuring it applies to your lane before proceeding. Avoid the lanes indicated as closed by traffic cones and keep an eye on vehicles in adjacent lanes to avoid side collisions and to safely navigate changes in traffic flow."
+  ]
+}

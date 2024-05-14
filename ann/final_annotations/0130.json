@@ -1,0 +1,37 @@
+{
+  "vehicles": [
+    {
+      "description": "Parked vehicles are visible on the right side of the road, partially occupying the lane.",
+      "explanation": "These vehicles reduce the usable width of the lane and necessitate cautious passage, potentially slowing down the ego vehicle's speed."
+    },
+    {
+      "description": "A white car is directly in front of the ego-car, occupying the same lane and moving in the same direction.",
+      "explanation": "The white car could potentially slow down, stop, or turn, affecting the ego car's speed and following distance."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A couple of pedestrians are visible on the right side, one is closer to the edge of the road, and the other is slightly further away, both are facing towards the direction of the ego-car indicating the possibility of crossing or walking along the road.",
+      "explanation": "Pedestrians near the roadway are unpredictable and may enter the road, necessitating that the ego-car be prepared to slow down or stop."
+    },
+    {
+      "description": "A security guard is visible on the left edge of the image, close to the ego car",
+      "explanation": "The security guard may step onto the road, thus the ego car must be ready to slow down or stop."
+    }
+  ],
+  "traffic signs": [
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Cones are placed around the parked car on the left, indicating some form of temporary roadwork or obstruction.",
+      "explanation": "These cones suggest that the ego car may need to maneuver slightly to the right to avoid the obstruction whilst still maintaining a safe lane position."
+    }
+  ],
+  "barriers": [],
+  "other objects": [
+  ],
+  "suggestions": [
+    "The ego car should maintain a safe following distance behind the white sedan, adjusting speed as necessary according to the lead vehicle's actions. Caution should be exercised when passing the parked vehicles on the right, ensuring not to veer too close and be prepared for any sudden obstructions. Additionally, the ego vehicle should obey any unidentified traffic signs as more details become visible and remain alert to the pedestrian's movement. No abrupt maneuvers should be made without confirming the pedestrian remains off the roadway."
+  ]
+}

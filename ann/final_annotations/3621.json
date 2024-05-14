@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "A large truck with a concrete mixer directly in front of the ego car, occupying the same lane with its rear lights illuminated indicating it is active on the road.",
+      "explanation": "The truck's size and position directly influence the following distance required for the ego car to maintain safe braking distance and visibility."
+    },
+    {
+      "description": "A car to the left of the ego car, captured in peripheral vision with its front visible and appearing to be in a different lane, moving in the same direction as the ego car.",
+      "explanation": "This vehicle's relative position and motion are critical for the ego car to consider when assessing lane change opportunities or responding to potential merging actions from this vehicle."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the truck ahead, given its size and potential to obstruct visibility and reaction time. Monitor the vehicle in the left lane for any indications of merging into the ego car's lane, preparing to adjust speed or position if necessary. Since no traffic signs or lights are visible, continue to follow standard night driving precautions, such as reduced speed and heightened awareness of surroundings. Stay alert for any changes in road conditions or unexpected obstacles that might not be immediately visible at night."
+  ]
+}

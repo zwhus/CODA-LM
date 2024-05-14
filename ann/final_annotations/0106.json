@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "Parked cars are lined up along both sides of the street, with some gaps in between them.",
+      "explanation": "Parked cars may pose a risk as pedestrians might emerge from between them, and doors may open suddenly into the lane of the ego vehicle."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A motorcyclist is driving in the center of the lane ahead of the ego car, moving in the same direction as the flow of traffic.",
+      "explanation": "The motorcyclist represents a dynamic obstacle that requires constant monitoring as motorcycles can change speed and direction quickly."
+    },
+    {
+      "description": "Parked bicycles and scooters to the right side of the road, just off the drivable path.",
+      "explanation": "These items do not currently pose a risk, but awareness is important in case a pedestrian moves them into the path or if they fall over."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "A blue rectangular sign on the right side of the road with parking-related information.",
+      "explanation": "This sign indicates parking regulations which may influence where vehicles may stop or pull over."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Orange traffic cones to the left of the ego vehicle, indicating some form of road work or an obstruction in the parking lane.",
+      "explanation": "These cones suggest that the ego vehicle should stay in its current lane and be vigilant for any workers or changes in road conditions."
+    }
+  ],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the motorcyclist to allow for adequate reaction time to any of their potential maneuvers. Be alert for any pedestrians that may emerge from between parked cars or doors opening. Observe the parking sign regulations to ensure proper adherence to local traffic laws. Continue to monitor road conditions and surroundings for any changes or movement from the side of the road."
+  ]
+}

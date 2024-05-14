@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "A yellow minivan to the ego car's left, slightly ahead of the ego car's position.",
+      "explanation": "The proximity and potential for the minivan to change lanes requires the ego car to monitor it closely."
+    },
+    {
+      "description": "A large yellow construction vehicle mounted on a truck trailer directly in front of the ego car, occupying the full width of the lane and partially obstructing the view ahead.",
+      "explanation": "This heavy equipment carrier poses an obstacle to the ego car's movement, dictating a slower driving speed and potential need for lane change if the road permits."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the construction vehicle ahead, being prepared to reduce speed further if necessary. Monitor the yellow van in the adjacent lane for any signs of lane-changing or merging that might require the ego car to adjust its position or speed. Be alert for any traffic signs, signals, or changes in road conditions that become visible as the ego car approaches the construction vehicle. If a safe opportunity arises and a lane change is legal and necessary to maintain traffic flow, signal appropriately and change lanes with caution, ensuring not to impede the van's pathway. Stay vigilant for any unforeseen hazards that may be obscured by the large vehicle ahead."
+  ]
+}

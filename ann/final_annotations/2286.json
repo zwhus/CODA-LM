@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "A white car is parked on the side of the road to the left, partially on the roadway.",
+      "explanation": "This vehicle could potentially obstruct part of the lane which would require the ego car to maneuver around it, ensuring there is no oncoming traffic."
+    },
+    {
+      "description": "There is construction equipment (yellow excavator) to the right of the road and it appears to be stationary.",
+      "explanation": "While the equipment is not currently operating in the road, its presence suggests construction activity nearby, which might affect road conditions or unexpectedly enter the roadway."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Two tricycles carrying goods are parked on the far right, with one partially on the roadway, and no operators in immediate sight.",
+      "explanation": "The tricycle partially on the road could be an obstacle if the ego car needs to navigate around it or if the operator suddenly appears and moves it."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "A dustbin is present on the right side of the road, near the construction equipment.",
+      "explanation": "It's important to monitor for any pedestrian activity around the dustbin that might unexpectedly enter the roadway."
+    }
+  ],
+  "suggestions": [
+    "Due to the presence of parked vehicles and the obstacles slightly encroaching on the roadway, the ego car should maintain a lower speed and be prepared to make adjustments, such as gentle steering maneuvers to avoid any potential obstacles. Constant monitoring for any changes in the behavior of road users, like the parked sedan or tricycles, is advised. With no traffic lights or signs visible, the ego car should also be vigilant for any non-signaled movement of other vehicles and pedestrians that might emerge from the surroundings."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "A series of vehicles including cars and buses are visible ahead on the road, showing brake lights, indicating slow traffic or a potential traffic jam.",
+      "explanation": "The presence of these vehicles and their brake lights suggests congestion or slowing traffic ahead which will require the ego car to maintain a safe following distance and be prepared to stop or slow down as necessary."
+    },
+    {
+      "description": "There is a red truck in the right lane next to the ego car.",
+      "explanation": "This truck appears to be stationary or moving slowly as it is positioned near construction activity with traffic cones present."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "There are multiple directional signs overhead indicating lane directions and road names.",
+      "explanation": "These signs provide important navigational information for the ego car."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Traffic cones are seen on the right, designating a work zone and narrowing the usable space of the lane.",
+      "explanation": "The cones indicate that caution should be taken when passing and the ego car may need to merge left if the lane is too narrow to pass safely."
+    }
+  ],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "Street lights are seen illuminating the scene and reflections from the vehicles are visible on the road",
+      "explanation": "The lights and reflections do not directly affect driving behavior but are indicative of driving conditions at night."
+    }
+  ],
+  "suggestions": [
+    "Due to the construction vehicle obstructing the lane, traffic cones indicating a work zone, and potential traffic congestion ahead, the ego car should reduce speed appropriately, activate its hazard lights if it's stopping or significantly slowing down in an unexpected traffic condition, and be prepared to change lanes if necessary while maintaining vigilance for any unclearly visible traffic signs or signals. If the lane is not passable, the ego car should signal and merge into the adjacent lane when it is safe to do so."
+  ]
+}

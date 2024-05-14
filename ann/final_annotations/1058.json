@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "Concrete mixer truck on the left lane of the ego vehicle, slightly ahead.",
+      "explanation": "The concrete mixer truck's large size and potential to obscure vision or make sudden movements necessitates caution."
+    },
+    {
+      "description": "Multiple cars in the distance on the road, indicating busy traffic conditions.",
+      "explanation": "High traffic density increases the likelihood of frequent stops and requires careful speed management."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Pedestrians walking on the sidewalk on the right, some of them are close to the curb",
+      "explanation": "Even though they are not directly in the traffic lane, there is potential for pedestrians to enter the road, requiring caution from the ego vehicle."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There is an unattended bicycle on the side of the rightmost lane, posing a potential hazard to the traffic.",
+      "explanation": "The bicycle may affect the lateral clearance for the ego car and could be hit by other vehicles, potentially causing an accident."
+    }
+  ],
+  "suggestions": [
+    "Maintain a safe following distance from the concrete mixer truck and cars ahead while monitoring their speed and brake lights for signs of slowing down or stopping. Be prepared to reduce speed if needed. Be particularly vigilant of the pedestrians and cyclists on the right and ready to react if someone unexpectedly enters the road. The fallen bicycle poses a minor road hazard that should be safely passed with ample clearance. As always, abide by traffic regulations and speed limits while maintaining situational awareness."
+  ]
+}

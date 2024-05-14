@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "Dark sedan immediately in front of the camera car, brake lights illuminated, suggesting it is slowing or stopping.",
+      "explanation": "This vehicle's actions indicate traffic flow is slowing, necessitating a reduction in speed."
+    },
+    {
+      "description": "A red truck directly in front of the ego car, occupying the entire lane with brake lights on, indicating that the truck is either slowing down or stopped.",
+      "explanation": "The ego car must maintain a safe distance from the truck and prepare to stop or slow down as needed."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Pedestrian crossing the street from the right to the left side, in front of stationary vehicles",
+      "explanation": "The pedestrian has the potential to cross into the path of the ego car, so the car must be prepared to stop if necessary."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "Traffic lights ahead seem to be red",
+      "explanation": "Red lights require the ego car to come to a complete stop at the signal."
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the truck ahead ensuring sufficient time and space to react if the traffic comes to a stop. Keep an eye on the sedan to the left as it may change lanes abruptly due to traffic conditions. Stay vigilant for traffic signals or signs that may come into view to guide further actions. Finally, watch for the pedestrian to ensure they have safely crossed the street before proceeding. Adjust speed according to the flow of traffic and be ready for potential congestion or stop-and-go traffic behavior ahead."
+  ]
+}

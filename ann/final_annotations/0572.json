@@ -1,0 +1,32 @@
+{
+  "vehicles": [
+    {
+      "description": "A dark-colored sedan directly ahead of the ego car, occupying the same lane",
+      "explanation": "This vehicle dictates the following distance and speed the ego car must maintain to ensure safe driving."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Workers on the right side of the ego car, within a closed work zone bordered by cones and barriers",
+      "explanation": "Their proximity to the vehicle lane requires cautious driving to ensure their safety."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "orange traffic cones placed in a line separating the construction area from the travel lane",
+      "explanation": "they delineate active work zones and guide traffic flow, indicating areas that are off-limits to the vehicle"
+    }
+  ],
+  "barriers": [
+    {
+      "description": "White and red striped barriers lining the edge of the closed lane",
+      "explanation": "They serve as physical boundaries that signify the closed lane and work zone, guiding the ego vehicle to stay in the open lane."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the vehicle ahead and reduce speed according to the posted work zone speed limits, if visible. Be prepared to stop or slow down further if the workers move closer to the travel lane or if construction-related directives are given. Stay alert and adjust lane position slightly away from the workers to provide them a safe working space, while also staying within the lane limits marked by the barriers and cones."
+  ]
+}

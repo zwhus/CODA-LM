@@ -1,0 +1,41 @@
+{
+  "vehicles": [
+    {
+      "description": "Several parked vehicles are observed on both sides of the street, with some being vans and trucks used for business purposes.",
+      "explanation": "These parked vehicles reduce the usable width of the roadway and require the ego car to be alert for any vehicles that may pull out into traffic."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A motorcyclist in the center of the road ahead, moving in the same direction as the ego car.",
+      "explanation": "The motorcyclist is particularly vulnerable and requires a safe distance to be maintained by the ego car."
+    },
+    {
+      "description": "Multiple pedestrians on the left sidewalk parallel to the ego vehicle's direction of travel.",
+      "explanation": "While they are not on the road, their close proximity to the traffic flow requires monitoring in case they step onto the road."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "No visible traffic signs are affecting immediate behavior.",
+      "explanation": "Without specific traffic signs dictating limits or warnings, standard road rules apply."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Orange traffic cones are placed on the right side of the road, likely indicating an area to avoid such as temporary road work or a hazard.",
+      "explanation": "These cones suggest the ego car should maintain its position in the lane, away from the coned area, to avoid potential hazards."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "Red and white striped barriers on the sidewalk on the right, partitioning the road from some roadside activity.",
+      "explanation": "These barriers indicate that there could be road work or another obstacle that might affect road conditions or reduce the usable road width."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the motorcyclist, be prepared to slow down as traffic conditions ahead are unclear, be cautious of the possibility of cyclists and parked cars on the right side of the lane. Overtake the cyclist only when it's safe with ample clearance and no oncoming traffic from the opposite lane. Remain observant of any activities signaled by traffic cones and barriers."
+  ]
+}

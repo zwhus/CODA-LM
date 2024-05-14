@@ -1,0 +1,51 @@
+{
+  "vehicles": [
+    {
+      "description": "Several cars and motorcycles are parked on the right side of the road, with their rear facing the direction of the ego-vehicle.",
+      "explanation": "This indicates a possible busy, populated area. The parked vehicles could obscure pedestrians or cyclists and there is a possibility of doors opening or vehicles pulling out into traffic, hence the ego car should proceed with caution."
+    },
+    {
+      "description": "A white car on the left side of the ego vehicle traveling in the opposite direction.",
+      "explanation": "This vehicle is approaching and could potentially swerve or change lanes, requiring vigilance from the ego vehicle."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A cyclist on the right side ahead, riding along the roadside",
+      "explanation": "The cyclist's presence means the ego car should be cautious and ready to give space when overtaking to avoid any close encounters."
+    },
+    {
+      "description": "Several pedestrians are seen on the right, walking parallel to the road, at a safe distance away from the driving lane.",
+      "explanation": "Pedestrians close to the roadway can be unpredictable and may attempt to cross the road, requiring the ego vehicle to be ready to slow down or stop."
+    }
+  ],
+  "traffic signs": [
+  ],
+  "traffic lights": [
+  ],
+  "traffic cones": [
+    {
+      "description": "A line of traffic cones placed in the middle of the road, separating lanes.",
+      "explanation": "Cones suggest a divider or a lane merge that requires the ego car to stay within the appropriate lane boundaries."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "A metal barrier on the left side of the road next to the sidewalk",
+      "explanation": "While it does not directly influence driving behavior, it indicates a boundary the ego car should not cross."
+    },
+    {
+      "description": "There are spherical barriers on the left side, separating the oncoming traffic lanes from the ego-vehicle's lane.",
+      "explanation": "These barriers guide the traffic flow and prevent the ego vehicle from crossing into the opposite lane. The ego car should maintain lane discipline."
+    }
+  ],
+  "other objects": [
+    {
+      "description": "A large billboard above the road, though not directly a road user, it is a distraction",
+      "explanation": "The billboard can be a distraction and the ego car should keep attention on the road to monitor the behaviors of actual road users."
+    }
+  ],
+  "suggestions": [
+    "The ego car should maintain a safe following distance from the white SUV ahead on the left, be cautious of the parked vehicles on the right, watch for pedestrians which may interact with the traffic flow, and adhere to visible traffic signs while staying within the lane marked by barriers. The driver should be especially vigilant for any pedestrians that might enter the roadway unexpectedly and for vehicles that might depart from the parking area on the right."
+  ]
+}

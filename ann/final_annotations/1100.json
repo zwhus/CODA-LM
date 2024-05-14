@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "A truck with reflective materials on the back, positioned in the left lane in front of the ego car, partially obstructed by water spray due to wet road conditions",
+      "explanation": "The truck's position and size, along with reduced visibility due to water spray, affect the ego car's ability to safely overtake or maintain a safe following distance."
+    },
+    {
+      "description": "Multiple vehicles ahead with taillights illuminated, suggesting slow-moving or stopped traffic under a bridge in wet weather conditions.",
+      "explanation": "The traffic density and wet road surface ahead necessitate reduced speed and increased following distance to allow for safe stopping distances."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a cautious speed and safe following distance from the truck ahead due to reduced visibility and traction on the wet road. Stay aware of the surrounding traffic and keep an eye out for the traffic light signal change. Be prepared to respond to other vehicles' actions and adjust driving behavior accordingly."
+  ]
+}

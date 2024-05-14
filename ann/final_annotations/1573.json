@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "A large construction vehicle with a crane arm extended occupies the left lane adjacent to the ego car, moving in the same direction.",
+      "explanation": "Its size and the extended arm could pose a risk should it veer too close or if its load were to shift unexpectedly."
+    },
+    {
+      "description": "A silver sedan directly in front of the ego vehicle, with its brake lights illuminated.",
+      "explanation": "The sedan's brake lights suggest that it is either slowing down or stopped, indicating that the ego vehicle should also prepare to slow down or stop."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "A traffic light is visible in the upper right corner, showing a red light for the lane the ego car is in.",
+      "explanation": "The red traffic light requires vehicles in the lane to come to a complete stop."
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There are trees and streetlight poles along the roadside.",
+      "explanation": "These objects are not directly influencing the driving behavior as they are not obstructions in the road."
+    }
+  ],
+  "suggestions": [
+    "The ego car should maintain a safe following distance from the sedan ahead and prepare to come to a complete stop due to the red traffic light. It should also be alert to the presence of the construction vehicle, ready to take evasive action if the situation requires."
+  ]
+}

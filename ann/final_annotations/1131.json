@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "Large truck on the right side of the road, partially obstructing the lane, likely part of the construction crew.",
+      "explanation": "The truck's size and positioning may reduce the available space for the ego car to maneuver, demanding caution and possibly a reduction in speed."
+    },
+    {
+      "description": "A vehicle with red taillights illumined, indicating it is either stopped or moving slowly ahead",
+      "explanation": "The vehicle in front could be stopping due to the activity in the scene, potentially impacting the ego vehicle's path."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Multiple workers wearing reflective vests and hard hats are visible on both sides of the road, suggesting road work or construction activity. They are around the edges of the lane in use and one is crossing in front of the truck, possibly directing traffic.",
+      "explanation": "The presence of road workers requires the ego car to proceed with increased caution and potential compliance with any temporary directions or signals."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Several traffic cones are arranged in a line on the right side of the road, indicating a work zone and guiding traffic flow.",
+      "explanation": "These cones delineate a restricted area that the ego car must not enter, thereby narrowing the drivable path and guiding the driver on where to drive."
+    }
+  ],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Proceed with caution at a reduced speed to allow for safe navigation around the construction workers and the stopped vehicle ahead. Be prepared to stop if necessary, especially if the person on the right moves to cross the path of the ego vehicle. Follow the directional guidance provided by the traffic cones, and refrain from entering the restricted sections indicated by the red circular signs. Maintain vigilance for any sudden movements or signals from the construction workers which might require immediate action."
+  ]
+}

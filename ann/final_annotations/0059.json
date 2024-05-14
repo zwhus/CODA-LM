@@ -1,0 +1,37 @@
+{
+  "vehicles": [
+    {
+      "description": "One white car partially visible on the left edge of the image, facing the ego car, appearing to be parked or waiting.",
+      "explanation": "This vehicle's presence may narrow the drivable area on the left."
+    },
+    {
+      "description": "A white van is directly ahead of the ego car, occupying the center of the driving lane, with brake lights visible indicating it is either slowing down or coming to a stop.",
+      "explanation": "The presence and behavior of this vehicle directly affects the ego car\u2019s speed and following distance."
+    },
+    {
+      "description": "A silver car is parked on the left side of the road, not obstructing the driving lane, but partially within the field of view.",
+      "explanation": "This parked vehicle does not directly affect the ego car\u2019s immediate driving behavior but should be noted for situational awareness."
+    }
+  ],
+  "vulnerable_road_users": [
+  ],
+  "traffic signs": [
+    {
+      "description": "A pedestrian crossing sign is visible on the right side of the road, indicating the presence of a crosswalk ahead.",
+      "explanation": "This sign alerts the ego car to potential pedestrians crossing and the need to be prepared to stop."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Several traffic cones are set up on the right side of the left lane, narrowing the available lanes for vehicular traffic and indicating road work or lane closure.",
+      "explanation": "The placement of the cones could affect the lane choice and require the ego car to keep left to avoid them, also indicating a potential merge situation."
+    }
+  ],
+  "barriers": [
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Proceed with caution, maintaining a safe distance from the white van ahead and be prepared to stop in case it is stationary. Stay alert for pedestrians due to the crossing sign. Navigate carefully to avoid the traffic cones on the right and remain within the narrowed lane defined by the barriers on the left. Adjust speed if the road condition worsens or in the presence of actual roadwork or pedestrians."
+  ]
+}

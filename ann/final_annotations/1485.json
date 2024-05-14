@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "There is a large orange excavator on the right side of the road, occupying part of the lane with its shovel extended over the ground",
+      "explanation": "The excavator presents a possible obstruction to the vehicle's path and may require the ego car to change lanes to avoid it if the lane is blocked."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "There are barriers visible on the right, which seem to be part of the construction area under the bridge",
+      "explanation": "These barriers may demarcate a construction zone, indicating that the ego car should be prepared for sudden changes in traffic flow and potential detours."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should reduce speed due to the construction area, remain vigilant for potential hazards, construction workers, and follow any posted construction signs. If the excavator or related construction activity obstructs the current lane, the car should prepare to safely change lanes, if it's allowed and safe to do so. Always prioritize safety and adhere to construction zone traffic laws."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A yellow crane truck on the right side of the ego car, occupying the right lane and partially the middle lane where the ego car is positioned.",
+      "explanation": "This large vehicle restricts the lane availability for the ego car and suggests the need for increased caution when passing or considering a lane change due to its size and the limited space."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "Light poles along the median strip of the road, not affecting the traffic but a point of reference for environmental awareness.",
+      "explanation": "The presence of light poles is not an immediate concern for the ego car but contributes to overall situational awareness."
+    }
+  ],
+  "suggestions": [
+    "Maintain a safe following distance from the crane truck ahead, be prepared to slow down due to the heavy vehicles in front, and use turn signals in advance when considering changing lanes to overtake. Keep vigilant for any sudden movements from larger vehicles and adjust speed accordingly. As there are no vulnerable road users or traffic signs to consider in this scenario, the ego car should focus on safe maneuvering around the larger vehicles."
+  ]
+}

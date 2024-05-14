@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "A black van parked on the left side of the road, slightly ahead of the ego car's position.",
+      "explanation": "The parked van reduces the available lane width and could potentially obstruct the view of pedestrians or other hazards."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "An individual appears seated on a folding stool on the sidewalk, facing away from the road.",
+      "explanation": "This person is not currently a threat to traffic but their presence should be monitored in case they decide to stand up or move towards the road."
+    },
+    {
+      "description": "Multiple pedestrians seated and standing to the left along the storefronts.",
+      "explanation": "Pedestrians in close proximity to the roadway can be unpredictable, and the possibility of one of them entering the roadway must be considered."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "A series of blue barriers are placed along the side of the road, seemingly demarcating construction or a restricted area.",
+      "explanation": "The barriers indicate that there may be road work or an obstruction ahead which could affect lane availability and traffic flow."
+    }
+  ],
+  "other objects": [
+    {
+      "description": "Temporary structures and booth like setups are present along the side of the road, indicating a possibility of pedestrians or activity close to the roadway.",
+      "explanation": "These structures suggest that there could be pedestrian traffic or unexpected movements near the driving lane which necessitates cautious driving."
+    }
+  ],
+  "suggestions": [
+    "Proceed with caution and maintain a moderate speed while monitoring the pedestrian by the side of the road for any signs of movement towards the road. Be prepared to slow down or stop if the situation requires. Additionally, be aware of potential obstructions or changes in traffic flow due to the barriers indicating possible road work ahead."
+  ]
+}

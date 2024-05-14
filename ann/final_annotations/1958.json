@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A large truck on the right side of the ego car, appearing to be stationary or moving slowly, occupying the right lane",
+      "explanation": "The truck's size and lane occupation require the ego car to maintain a safe distance and potentially prepare for lane changes or speed adjustments."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Orange traffic cones can be seen to the far left, possibly indicating construction or lane closures ahead,",
+      "explanation": "The presence of cones suggests altered traffic patterns ahead, so the ego car should be cautious and watch for possible detours or reduced lane availability."
+    }
+  ],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the truck, be prepared for lane changes if the cones indicate a closed lane ahead, observe for any traffic controls that might come into view, and stay alert for construction-related interruptions."
+  ]
+}

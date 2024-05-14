@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "There are multiple white cars in the distance, traveling in the same direction as the ego vehicle, occupying the left lane.",
+      "explanation": "These cars set the pace of the traffic ahead and could influence the ego vehicle's driving behavior if they brake or change lanes."
+    },
+    {
+      "description": "A large yellow construction crane vehicle positioned in the right lane of a multi-lane road, slightly ahead of the ego car's position, with its bed and equipment extending beyond the width of the lane. The vehicle is branded 'SANY' and has hazard markings and reflectors along its rear and sides.",
+      "explanation": "This vehicle's size and position may obstruct the lane and reduce visibility, requiring the ego car to possibly change lanes in order to maintain a safe following distance and continue traveling safely."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Due to the size and positioning of the construction crane vehicle in the right lane, the ego car should prepare to change lanes to the left, after checking for safe clearance and signaling intentions to do so. It should maintain a safe following distance from the vehicles ahead in the new lane. Additionally, it must continue to monitor the road conditions and speed to adapt to any changes in traffic patterns."
+  ]
+}

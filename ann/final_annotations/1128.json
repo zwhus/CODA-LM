@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "Oversized truck with an industrial machine mounted on its trailer located directly in the center of the roadway, occupying the entire lane in front of the ego vehicle",
+      "explanation": "The truck reduces the drivable space for the ego vehicle and poses a direct impact on the traffic flow, necessitating a driving decision to either slow down, stop, or change lanes if possible and legal."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There are overhanging trees and bushes on the sides of the road, as well as residential buildings visible.",
+      "explanation": "Foliage near the road could potentially obscure pedestrians or animals about to cross, necessitating caution."
+    }
+  ],
+  "suggestions": [
+    "Reduce speed and maintain a safe following distance from the truck, being prepared to stop or slow down if necessary. Observe for any possible indication from the truck if it is turning or stopping. Be cautious due to the wet road conditions, which require lower speeds for safe handling. If the truck is moving slowly and overtaking is legal and safe considering road conditions and oncoming traffic, prepare to change lanes with caution."
+  ]
+}

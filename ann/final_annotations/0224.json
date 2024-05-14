@@ -1,0 +1,32 @@
+{
+  "vehicles": [
+    {
+      "description": "A single vehicle is visible in the distance, centrally located on the roadway, appearing to travel away from the perspective of the ego car",
+      "explanation": "Since the other vehicle is maintaining a straight course and moving away, the ego car can continue its path with maintained distance for safety."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "A 'No Entry' sign placed on the left side of the road, alongside a sign indicating construction work ahead",
+      "explanation": "It informs the ego car that entering the left lane is prohibited due to construction work."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "A series of large, orange and white striped barrels are positioned forming a line that demarcates the closed lane from the operational lanes",
+      "explanation": "The barrels serve as a physical barrier to indicate the closed lane and guide traffic away from potential hazards or construction area."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "Yellow barriers with reflective stripes on the left side of the road, reinforcing the lane closure",
+      "explanation": "These provide a physical barrier to ensure vehicles do not enter the construction zone."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Continue driving in the current lane while observing standard speed limits and maintaining a safe following distance from the vehicle ahead. Anticipate potential merge activity due to the lane closure indicated by the signs and barrels. Stay vigilant for any changes or directions provided by road workers or additional signage."
+  ]
+}

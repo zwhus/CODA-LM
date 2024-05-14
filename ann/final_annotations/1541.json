@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "A large yellow construction vehicle with a crane arm and a license plate reading 'D97417' occupying the lane directly ahead of the ego car.",
+      "explanation": "The ego car must maintain a safe following distance from this slow-moving, heavy vehicle, as it may make unpredictable movements or stops."
+    },
+    {
+      "description": "A black SUV is in the adjacent lane to the left of the ego car, slightly ahead.",
+      "explanation": "The black SUV's positioning is important if the ego car considers a lane change to the left to overtake the maintenance vehicle. It's critical to monitor the SUV's speed and trajectory to safely merge."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Metal guardrails are visible to the right of the ego car, indicating the edge of the road and the boundary of the driving lane.",
+      "explanation": "The guardrails define the drivable area and restrict the ego car's ability to maneuver to the right, emphasizing the importance of careful lane-keeping."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should decrease speed and maintain a safe following distance from the maintenance vehicle while signaling and preparing for a potential lane change to the left. It must also account for the black SUV's position when deciding to merge. Additionally, the wet road condition requires the ego car to perform all maneuvers with increased caution to prevent skidding or loss of control."
+  ]
+}

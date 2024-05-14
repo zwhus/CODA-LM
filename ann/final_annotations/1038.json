@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "A large red truck is directly in front of the ego car. It has its brake lights on, indicating it is either slowing down or stopped.",
+      "explanation": "The brake lights suggest that the truck is slowing down or coming to a stop, which requires the ego car to maintain a safe following distance and prepare to stop if necessary."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe distance from the truck, reduce speed to account for wet road conditions, and be prepared to stop if the truck's brake lights suggest sudden halting. Use low beam headlights to minimize glare and enhance visibility."
+  ]
+}

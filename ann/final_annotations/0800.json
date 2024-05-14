@@ -1,0 +1,27 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Several orange and white reflective traffic cones are positioned in a line across the right side of the road, likely indicating the presence of a road hazard or construction work ahead.",
+      "explanation": "These cones are guiding traffic and reducing the available lanes, requiring the ego car to adjust its path accordingly."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "A booth-like structure with an extended barrier arm is seen to the right, suggesting a checkpoint or toll gate",
+      "explanation": "The presence of this structure indicates that vehicles must stop or slow down to interact with booth personnel or pay a toll before proceeding."
+    }
+  ],
+  "other objects": [
+    {
+      "description": "A brightly lit booth is stationed to the right of the ego car, suggesting a parking lot entrance, exit, or a security checkpoint.",
+      "explanation": "The booth might be associated with pedestrians or stopping vehicles, which requires the ego car to be vigilant of potential interactions."
+    }
+  ],
+  "suggestions": [
+    "The ego car should slow down due to the presence of traffic cones and the barrier, which may narrow the drivable roadway. Additionally, the ego car should be prepared to stop or yield at the booth if necessary, and watch for any instructions from personnel or unexpected movements from vehicles/pedestrians in this area."
+  ]
+}

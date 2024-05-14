@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "Several vehicles are present at a distance in the adjacent lanes, some with their headlights on, indicating nighttime driving conditions.",
+      "explanation": "The presence of these vehicles in adjacent lanes must be taken into account, particularly if a lane change becomes necessary to avoid any sudden stops by the truck ahead."
+    },
+    {
+      "description": "A large truck directly in front of the ego car, appearing stationary or moving slowly with visible rear lights and reflection of the ego vehicle's headlights on its back surface",
+      "explanation": "The truck occupies the lane directly in front of the ego car, which may require the ego car to maintain a safe following distance and be prepared to stop or maneuver around the truck."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "The traffic light ahead is green, as shown by the illuminated green light which is visible through the rear windshield of the truck ahead.",
+      "explanation": "The green traffic light indicates that vehicles are allowed to proceed, but given the stationary or slow-moving truck in the same lane, the ego car must remain cautious."
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the truck ahead while monitoring its brake lights for any changes. Be ready to apply brakes if the truck's movement suggests heavier traffic or a potential halt. Consider a lane change if the truck stops and an adjacent lane is clear, but only proceed with a lane change after ensuring the adjacent lanes are safe to enter. Continue to observe the green traffic signal while being prepared to adjust driving behavior in response to other road users and potentially slippery road conditions."
+  ]
+}

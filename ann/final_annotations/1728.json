@@ -1,0 +1,22 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [
+    {
+      "description": "A pedestrian walking along the right side of the road accompanied by a small, light-colored dog without a leash",
+      "explanation": "The pedestrian and dog are in close proximity to the road which could introduce unpredictability, as the dog is not restrained and may enter the roadway."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "A traffic light is visible on the right, above the road, but the state of the light is not discernable due to the quality of the image",
+      "explanation": "The traffic light controls the flow of traffic, and the ego car must adhere to its signal once it becomes visible and can be determined"
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should reduce speed and be prepared to stop if necessary while approaching the pedestrian and the dog. Maintain a safe distance from the roadside where the pedestrian and dog are walking. As for the traffic light, the driver should observe and be prepared to respond according to the signal once its state can be clearly identified. The driver should remain attentive to the behavior of the pedestrian and the dog, as well as other potential road users that might enter the scene."
+  ]
+}

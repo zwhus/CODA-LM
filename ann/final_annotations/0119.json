@@ -1,0 +1,30 @@
+{
+  "vehicles": [
+    {
+      "description": "There is a blue car traveling in the same direction as the ego car on the right side.",
+      "explanation": "Its presence requires the ego car to maintain a safe following distance."
+    },
+    {
+      "description": "Another vehicle is partially visible in the right lane, slightly ahead of blue car.",
+      "explanation": "This vehicle could influence lane choice and merging decisions, as well as speed regulation."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A cyclist is crossing the road from the right to the left in a perpendicular direction, wearing a black shirt and gray pants, and pushing a yellow bike.",
+      "explanation": "This cyclist affects the immediate driving behavior of the ego car, posing a potential hazard as they cross the street."
+    },
+    {
+      "description": "Motorcyclists are parked to the right, next to the bicycle parking area.",
+      "explanation": "While stationary, these motorcyclists could start moving and enter traffic, so the ego car should monitor them."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a steady speed while monitoring the blue car in the left lane. Prepare to slow down or stop for the cyclist utilizing the pedestrian crossing. Keep an appropriate safe distance from all vehicles and be ready to react if the motorcycles or bicycles enter the traffic flow. Avoid unnecessary lane changes and keep checking the mirrors for situational awareness."
+  ]
+}

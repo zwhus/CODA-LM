@@ -1,0 +1,17 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [
+    {
+      "description": "One motorcyclist moving from the right to the left across the field of view",
+      "explanation": "The moving motorcyclist could affect the driving path of the ego car. When driving at night, visibility of motorcyclists can be reduced which increases the risk of accidents."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego vehicle should maintain a safe distance from the motorcyclist, providing them with ample space should they decide to change direction or stop suddenly. The headlights should be used appropriately to ensure visibility without blinding the motorcyclist. Additionally, the vehicle's speed should be adjusted to the nighttime conditions, allowing for enough reaction time in case the motorcycle's behavior changes unexpectedly."
+  ]
+}

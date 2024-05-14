@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A large vehicle, likely a truck or heavy machinery, is directly in front of the ego vehicle. It has a bright orange body and is occupying the same lane as the ego car, partially obstructing the view ahead.",
+      "explanation": "This vehicle is significant because it may behave unpredictably, particularly if it is involved in road work or is a slow-moving vehicle that might need to make frequent stops or turns."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "A traffic light is visible showing a green light for going straight and a red light for turning left.",
+      "explanation": "The green light indicates that the ego car is allowed to proceed straight but cannot turn left at this moment."
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Given the presence of a large vehicle in the same lane and vulnerable road users in the vicinity, the ego vehicle should maintain a safe following distance from the truck ahead to ensure there is sufficient time to react to any potential obstacles or changes in traffic flow. Despite the green traffic light, the ego car should remain cautious, particularly around the motorcyclists and cyclists, and be prepared for the possibility that the large vehicle ahead may behave unpredictably if it is part of road work operations. The driver should continue to monitor the road conditions and traffic signs for any updates or additional instructions."
+  ]
+}

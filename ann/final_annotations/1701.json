@@ -1,0 +1,36 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "A rectangular signboard on the right with Chinese characters which likely indicates some information about the facility or area.",
+      "explanation": "This sign does not give any direct instructions for driving behavior, but it's important to be aware of it in case it includes parking regulations or directions."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Orange and white traffic cones placed in the middle of the road, creating a pathway for vehicles",
+      "explanation": "These cones are directing the traffic flow and indicate that the ego car should stay within the boundaries set by the cones to safely pass through the area."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "There is a barrier directly in the path of the ego car, spanning the width of the road, which appears to be a raised gate or similar obstruction.",
+      "explanation": "This barrier will prevent the ego car from proceeding forward and suggests the path is either closed to traffic or requires credentials to access."
+    }
+  ],
+  "other objects": [
+    {
+      "description": "There are red decorative lanterns hanging around, which have no effect on driving behavior.",
+      "explanation": "These are merely decorations and do not influence the driving decisions of the ego car."
+    },
+    {
+      "description": "Snow piled on the sides of the road and hanging red lanterns as decorative elements",
+      "explanation": "The presence of snow piles suggests recent snowfall or snow clearing activities. The lanterns are not directly influencing driving behavior but should be noted as they indicate potential activities or events in the area that could affect traffic."
+    }
+  ],
+  "suggestions": [
+    "Proceed with caution, following the pathway marked by the traffic cones. The ego car should reduce speed due to the wet road conditions and be prepared to stop, should the cones indicate a complete road closure ahead. Pay attention to any additional signs or signals that could provide further instructions about the detour or road conditions."
+  ]
+}

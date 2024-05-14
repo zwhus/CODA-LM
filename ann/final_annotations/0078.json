@@ -1,0 +1,41 @@
+{
+  "vehicles": [
+    {
+      "description": "A white car is positioned directly in front of the ego vehicle, occupying the same lane.",
+      "explanation": "This car dictates the speed and distance that the ego vehicle must maintain to ensure safe driving conditions."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Cyclists are visible on the right side of the road, moving in the same direction as the traffic.",
+      "explanation": "The cyclists are potential hazards if they swerve or enter the lane of the ego vehicle. Adequate clearance must be given when passing them."
+    },
+    {
+      "description": "Pedestrians appear to be by the roadside, near the cyclists.",
+      "explanation": "The pedestrians could enter the road or cross, so the ego car should be prepared to slow down or stop."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "A 'No stopping or parking' sign is visible above the road, and a directional arrow sign indicating a turn or merge lane is on the left side of the road.",
+      "explanation": "The 'No stopping or parking' sign informs that stopping on this part of the road is prohibited, while the arrow sign suggests the road layout or direction changes ahead."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Two traffic cones on the left side of the road, alongside a yellow and red striped barrier, narrowing the lane and indicating roadwork or an obstruction.",
+      "explanation": "They signal the ego vehicle to stay clear of the area and potentially reduce speed."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "A yellow and red striped barrier on the left of the image, partially obstructing the road.",
+      "explanation": "The barrier indicates roadworks or a closed section of the lane, which means the ego car must change lanes or adjust its road position safely to avoid it."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego vehicle should proceed with caution, maintaining a safe following distance from the white car ahead. It must also monitor the cyclists, especially the one preparing to cross, to ensure their safety and be prepared to slow down or stop if necessary. The vehicle should stay in the current lane due to traffic signs indicating the direction of traffic flow and avoid stopping due to the no parking sign. The presence of traffic cones and barriers requires reduced speed and heightened attention for potential road workers or further obstructions."
+  ]
+}

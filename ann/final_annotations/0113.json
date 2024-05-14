@@ -1,0 +1,30 @@
+{
+  "vehicles": [
+    {
+      "description": "Oncoming vehicle seen at a distance with its headlights on, traveling in the opposite lane.",
+      "explanation": "Though this vehicle is in a different lane, its presence indicates the ego car should be attentive to potential oncoming traffic."
+    },
+    {
+      "description": " A white sedan directly in front of the ego car, with brake lights illuminated, indicating either a slow-moving or stationary state.",
+      "explanation": " The presence and behavior of this vehicle directly affect the speed and following distance of the ego car."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Yellow and red barriers aligned on the left side of the ego car's lane, creating a barrier between the driving lane and the left side of the road.",
+      "explanation": "These cones indicate a section of the road may be closed off for maintenance or safety, and the ego car should not cross into this area."
+    },
+    {
+      "description": "Yellow barriers on the right side of the lane constraining the width of the traffic lane.",
+      "explanation": " These barriers indicate construction or lane modifications, requiring drivers to be cautious and possibly reduce speed."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the vehicle in front as it is showing brake lights, be prepared to slow down or stop. Pay attention to the construction barriers indicating potential lane restrictions or changes. Drive cautiously due to the reduced lane width and potential hazards from the construction zone."
+  ]
+}

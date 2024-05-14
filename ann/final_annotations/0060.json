@@ -1,0 +1,29 @@
+{
+  "vehicles": [
+    {
+      "description": "Various cars and a van are visible in the distance in both the left and right lanes.",
+      "explanation": "The ego car should monitor these vehicles as they may change speed or switch lanes which will affect the ego car's driving decisions."
+    },
+    {
+      "description": "A flatbed truck carrying a yellow construction machine is in the left lane ahead of the ego car, occupying the full lane width.",
+      "explanation": "This vehicle's presence influences the ego car's ability to proceed forward in the left lane."
+    }
+  ],
+  "vulnerable_road_users": [
+  ],
+  "traffic signs": [
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+  ],
+  "barriers": [
+    {
+      "description": "Long red barriers are placed on the median strip, dividing the oncoming traffic lanes from the ego vehicle's lanes.",
+      "explanation": "The barriers suggest a separation of traffic flow and indicate that the ego car should remain in its current lanes."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should maintain a safe following distance from the vehicle carrying the construction equipment, staying alert for any potential stops or turns that this vehicle might make due to its potential involvement in road work. "
+  ]
+}

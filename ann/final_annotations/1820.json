@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "There are multiple vehicles parked on the right side of the street.",
+      "explanation": "The parked vehicles reduce the effective width of the driving lane, and require the ego vehicle to navigate the street with caution to avoid any sudden movements from these vehicles or from doors opening."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A pedestrian with a dog is crossing the street directly ahead of the ego vehicle.",
+      "explanation": "The pedestrian and animal on the road pose a direct obstacle and may also be unpredictable, requiring the vehicle to slow down or stop to allow safe passage."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego vehicle should slow down and prepare to stop to allow the pedestrian and the dog to cross the street safely. It should keep a safe distance from the parked vehicles on the right and remain alert for any unexpected events, such as an occupant exiting a parked vehicle. Once the pedestrian has safely crossed, the ego vehicle can continue driving with caution."
+  ]
+}

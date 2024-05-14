@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A large truck partially visible on the right-hand side of the frame, with the rear section of the truck occupying the lane adjacent to the ego car.",
+      "explanation": "The size and proximity of the truck may pose a risk if it decides to change lanes or stop suddenly, and it restricts the visibility of the road ahead for the ego car."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Reflective road barriers on the left-hand side of the lane, creating a boundary between the road and the area off the roadway.",
+      "explanation": "These barriers mark the limits of the safe driving area and indicate that the ego car must stay within the boundaries of the lane."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the large truck ahead, be prepared to react if it makes sudden movements, and stay within the lane boundaries marked by the reflective barriers. Since visibility ahead is restricted by the truck's size, the ego car should be ready to adjust speed or change lanes if necessary to maintain safety, given the traffic conditions become clearer ahead. Monitoring for any additional road users, traffic signs, or signals that may come into view is also important."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Steel gate barriers on the right side delineating a private property boundary",
+      "explanation": "These barriers indicate a roadside obstruction that the car should maintain a safe distance from."
+    }
+  ],
+  "other objects": [
+    {
+      "description": "A metal fence to the right of the road possibly indicating a boundary or private property.",
+      "explanation": "While this object does not directly affect driving behavior, it provides contextual understanding of the roadside layout."
+    }
+  ],
+  "suggestions": [
+    "Maintain a safe distance from the right side due to the parked motorcycle and barriers. Decrease speed to accommodate for wet road conditions and potential reduced visibility due to darkness and wet weather. Remain observant for any unexpected movements from the parked motorcycle."
+  ]
+}

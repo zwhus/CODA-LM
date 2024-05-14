@@ -1,0 +1,17 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "Large reels most likely containing cable or similar material, and smaller objects scattered on the side of the road, positioned within an industrial or construction setting.",
+      "explanation": "These objects are in the periphery of the roadway and do not pose a direct obstacle to the ego car's path, but they indicate a possible industrial area or construction zone where additional hazards or unexpected road conditions may occur."
+    }
+  ],
+  "suggestions": [
+    "Proceed with caution due to the industrial setting. Be vigilant for any unscheduled movements from adjacent lots, heavy machinery, or workers that may affect road safety. Maintain a safe speed and be ready to adjust the driving path in case of any obstacles or vehicles entering the roadway."
+  ]
+}

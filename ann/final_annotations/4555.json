@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "There is a truck in the rightmost lane ahead of the ego vehicle, appearing to be a heavy goods vehicle with a blue container.",
+      "explanation": "The truck is relevant because it occupies the lane that the ego vehicle would typically use to travel and surpass slower traffic."
+    },
+    {
+      "description": "There is a truck with an orange and white striped pattern on the back, visible in the leftmost lane ahead of the ego vehicle, indicating it might be a work vehicle or part of road work operations.",
+      "explanation": "The work pattern suggests that road work or a construction zone is up ahead, and this truck is pertinent for navigation as it may be moving slower or making unexpected maneuvers."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "A series of red and white traffic cones are set up in a line demarcating the boundary of the driving lanes, beginning in front of the ego vehicle and extending along the road.",
+      "explanation": "These traffic cones indicate that there is a lane closure or diversion ahead, which affects the drivable path of the ego vehicle."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "A continuous metal barrier is present to the right of the freeway, separating the road from the adjacent land.",
+      "explanation": "These barriers define the lateral boundary of the road and create limits on how far to the right the ego vehicle can safely travel."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Proceed in the left lane while maintaining a safe distance from the leading work convoy truck, prepare for potential merging from vehicles in the right lane due to the lane taper, and observe any work zone speed limits or instructions provided by construction crew or signs."
+  ]
+}

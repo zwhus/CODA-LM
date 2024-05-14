@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "A large truck with reflective markings on the rear, occupying the lane directly ahead of the ego vehicle.",
+      "explanation": "The truck's position and size might obstruct the view of the road ahead for the ego vehicle driver, making it impossible to see if there are any obstacles or changes in road conditions ahead. The reflective markings indicate it might be stationary or moving slowly."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should maintain a safe following distance from the truck, given its size and the potential for reduced visibility and stopping capability due to road conditions. The vehicle's headlights are reflecting on the wet surface, confirming the need for careful driving. If the truck is moving slowly or is stationary, the ego car should prepare to slow down further or come to a stop if necessary, and look for opportunities to safely change lanes if the truck is causing a delay in traffic flow. Additionally, the ego vehicle should ensure its lights are properly adjusted to provide maximum visibility without blinding other drivers."
+  ]
+}

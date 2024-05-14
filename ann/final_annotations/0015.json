@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "A tricycle with an overloaded rear carrying goods is in the left lane ahead of the ego car, moving in the same direction.",
+      "explanation": "The slow speed and potential instability due to its load could require the ego car to overtake."
+    },
+    {
+      "description": "A small three-wheeled vehicle is traveling in the right lane, also with its rear to the ego car and loaded with cargo",
+      "explanation": "The three-wheeled vehicle's slower speed and potential instability due to its load requires increased caution and readiness to adapt speed or lane position."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Groups of pedestrians are visible on both sides of the road, they seem to be waiting to cross or walking along the sidewalk.",
+      "explanation": "Pedestrians could enter the road which might require the ego car to slow down or stop."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "A speed weight sign showing '40t' on the right side of the road.",
+      "explanation": "This indicates the maximum weight at  the ego car ."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There are construction barriers in the front of the ego car, suggesting potential construction activity ahead.",
+      "explanation": "The presence of construction might affect traffic patterns and cause unexpected obstructions or detours."
+    }
+  ],
+  "suggestions": [
+    "The ego vehicle should maintain a safe following distance behind the three-wheeled vehicle, preparing to overtake if the vehicle slows unexpectedly and if it is safe to do so. The ego car should maintain awareness of the cyclists and pedestrians' proximity to the road, especially if they show signs of entering the roadway. Watch out for potential construction activity indicated by the parked truck and be prepared for construction-related traffic changes. Lane positioning should be adjusted according to the marked lanes and turning arrows, especially if preparing to make a turn."
+  ]
+}

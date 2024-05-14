@@ -1,0 +1,40 @@
+{
+  "vehicles": [
+    {
+      "description": "A black sedan is positioned ahead in the same lane as the ego car, traveling in the same direction.",
+      "explanation": "This vehicle's speed and trajectory will directly influence the speed and following distance the ego car should maintain."
+    },
+    {
+      "description": "A white SUV is parked on the right side of the road, opposite the direction of the ego car.",
+      "explanation": "Although it is stationary, it should be monitored for any unexpected movements or doors opening."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A group of three pedestrians is standing in the roadway at a crossing zone, just off the ego car's lane on the right.",
+      "explanation": "The pedestrians have the potential to cross the street, which would require the ego car to yield or stop, depending on their actions."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "A blue parking sign with a 'P' symbol is visible on the right side of the road, indicating parking areas nearby.",
+      "explanation": "The sign itself doesn't directly affect the ego car's immediate driving behavior but indicates increased activity and pedestrian traffic near parking areas."
+    },
+    {
+      "description": "A 'No Entry' sign is visible on the gate to the right, indicating that vehicles are not allowed to enter that area.",
+      "explanation": "This sign ensures that the ego car does not mistakenly turn into the restricted area."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "The area in front of the pedestrians is sectioned off with a short blue and white striped fence or barrier.",
+      "explanation": "This barrier indicates that the area ahead is restricted for vehicles, informing the ego car that it cannot proceed straight and suggesting the need for a detour or turn."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should reduce speed due to the presence of parked vehicles and pedestrians potentially crossing or standing on the carriageway. With the blue and white striped barrier indicating a closed-off area ahead, the ego car should prepare to turn accordingly, either choosing a detour route or following the indicated permissible direction. Caution should be applied when navigating around the parked vehicles and the group of pedestrians to ensure safety and compliance with road rules."
+  ]
+}

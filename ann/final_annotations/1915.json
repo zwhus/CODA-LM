@@ -1,0 +1,29 @@
+{
+  "vehicles": [
+    {
+      "description": "White vehicle ahead on the same lane, approximately 50 meters away, moving in the same direction",
+      "explanation": "The vehicle's presence and speed will influence the ego car's following distance and speed adjustments."
+    },
+    {
+      "description": "Several cars are observed further down the road, implying a populated and possibly busy traffic environment.",
+      "explanation": "The presence of multiple cars suggests the potential for sudden stops, vehicles pulling out, and pedestrians between cars."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A pedestrian with a dog is walking on the left side of the road in the same direction as the ego vehicle.",
+      "explanation": "Pedestrians walking close to the roadside, especially with pets, can be unpredictable and may enter the roadway unexpectedly."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "There is a metal barrier on the left, separating the road from an adjacent water body.",
+      "explanation": "The barrier restricts road width and prevents vehicles from leaving the road, necessitating careful driving alongside."
+    }
+  ],
+  "other objects": [],
+  "suggestions": []
+}

@@ -1,0 +1,40 @@
+{
+  "vehicles": [
+    {
+      "description": "A white sedan car on the right side of the image appears to be parked or moving slowly on the side of the road.",
+      "explanation": "The position and movement of this car are relevant to the ego car's driving behavior to ensure there is no collision or incident if the car suddenly moves."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "There are multiple pedestrians on both sides of the street, some are close to the road and others are farther away in the park area.",
+      "explanation": "Pedestrians close to the road may enter the street, hence the ego car should monitor their movements closely."
+    },
+    {
+      "description": "A pedestrian is crossing the road from the right to the right in the distance, in front of the parked bus, they have not yet entered the ego car's lane.",
+      "explanation": "The pedestrian crossing the road may enter the ego car's lane, requiring the ego car to slow down or stop."
+    },
+    {
+      "description": "A cyclist moving away from the ego car on the left side of the road, alongside pedestrians.",
+      "explanation": "Their trajectory may intersect with the ego car's path if the cyclist were to change direction, thus requiring attention."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "A pedestrian crossing sign is visible on the left side of the street, indicating the presence of a crosswalk.",
+      "explanation": "This sign alerts the ego car to the likelihood of pedestrians crossing at this location."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Wooden barriers are placed on the sides of the road, partitioning the pedestrian walkway from the vehicular section.",
+      "explanation": "These barriers guide the pedestrians and prevent them from unintentionally entering the road, reducing the risk for the ego car."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Proceed with caution, particularly due to the pedestrian crossing the road, and the parked sedan which may limit maneuverability or visibility. Be prepared to yield to the pedestrian if they enter your lane, and maintain a safe distance from the parked sedan in case it starts moving. Also, watch for any pedestrians that may step onto the road unexpectedly from the right side. The presence of the scooter suggests reducing speed and ensuring a safe passing distance when approaching it."
+  ]
+}

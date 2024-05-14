@@ -1,0 +1,17 @@
+{
+  "vehicles": [
+    {
+      "description": "A large truck is directly ahead on the same lane, moving in the same direction with reflective lights visible on its rear and dirt or dust visibly kicked up by its wheels.",
+      "explanation": "The truck's large size and the dust it kicks up can obscure vision and it may make sudden movements or stops, requiring the ego car to keep a safe following distance and prepare for potential decreased visibility."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the truck to ensure adequate time to react to the truck's movements or any unforeseen events occurring ahead that may be hidden from view by the truck. Regularly check mirrors and blind spots for other vehicles that may affect the ability to change lanes if necessary. Be prepared to adjust speed accordingly if the truck slows down, stops, or turns."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "vehicles": [
+    {
+      "description": "A three-wheeled vehicle, possibly a motorized rickshaw or cargo tricycle, is directly ahead in the same lane as the ego car. It appears to be traveling slowly and carrying cargo or possibly waste materials.",
+      "explanation": "This vehicle could slow down or stop unexpectedly, which affecting the ego car's ability to maintain a steady speed or requiring it to change lanes or slow down."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A person pulling a cart in the middle of the right lane, moving in the same direction as the ego car.",
+      "explanation": "This road user's slow speed and usage of the driving lane directly affect the path and speed the ego car must adopt."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There are some scattered items and trash on the left side of the road, next to the pedestrians.",
+      "explanation": "The presence of debris raises the risk of objects being accidentally propelled towards the driving lane, requiring the ego car to monitor for unexpected obstacles."
+    }
+  ],
+  "suggestions": [
+    "Considering the slow-moving vehicle ahead and the nearby pedestrians, the ego car should reduce speed and maintain a safe following distance from the three-wheeled vehicle in front. It should be prepared to stop or steer clear if the pedestrians step into the road or if the vehicle in front stops abruptly. Overtaking should be done with caution only if the opposite lane is clear and it is safe and legal to do so. Additionally, due to the state of the road and potential debris, cautious driving with a reduced speed is recommended until the ego car passes this segment of the road."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "A large truck is in front of the ego vehicle, occupying the center of the drivable lane, with visible construction equipment and material, suggesting active road work ahead.",
+      "explanation": "The presence of the truck and potentially slow-moving or stationary activity ahead will likely affect the speed and lane choice of the ego car."
+    },
+    {
+      "description": "A yellow truck is ahead in the same lane as the ego car, slightly skewed to the left with the cargo area extending into the lane, suggesting it might be moving slowly or stopped.",
+      "explanation": "This indicates a potential obstruction in the ego car's path of travel that would necessitate a change in position or speed to avoid a collision."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "There are construction workers visible near the center and right of the image, wearing high-visibility clothing and working close to the roadway.",
+      "explanation": "The presence of workers near the driving lane necessitates caution, reduced speed, and preparedness to stop or maneuver if they unexpectedly enter the driving lane."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego vehicle should reduce speed and maintain a vigilant watch for the construction workers and potential obstacles. It should follow the lead of the truck in front while preparing for potential stops or diversions. Furthermore, the ego vehicle should be ready to change lanes if the right lane is blocked or closed due to the construction activity. Maintaining a safe following distance from the construction truck ahead is imperative to allow for sufficient reaction time."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "A white SUV is parked to the left of the ego car",
+      "explanation": "Its parked position requires the ego car to maneuver around it if the car is in the path the ego vehicle intends to take."
+    },
+    {
+      "description": "a grey sedan parked on the right side of the ego car, also facing the opposite direction",
+      "explanation": "similar to the white SUV, this vehicle is static but it occupies roadside space which could affect the decision-making of the ego car especially with regards to maintaining a safe lateral distance or when considering turning right"
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "There's a red and white striped barrier in front of a parking entrance or exit on the left side, which is a no-entry indication for vehicles.",
+      "explanation": "This barrier signifies that the ego car must not enter the marked area, hence obstructing potential routes or turns."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Temporary fencing is observed alongside the left side of the road, indicating construction or restricted access.",
+      "explanation": "This restricts the road width available for traffic and may indicate workers or machinery nearby which could unexpectedly enter the road."
+    }
+  ],
+  "other objects": [
+    {
+      "description": "A red chair is placed in front of a parked car to the left, possibly indicating a reserved parking space or a warning",
+      "explanation": "While not a standard road sign, it could be an informal signal for the ego car to not occupy that space or to be cautious about pedestrians or drivers maneuvering around the vehicle."
+    }
+  ],
+  "suggestions": [
+    "Proceed with caution, maintaining a safe distance from the gray car on the right. Be alert for any potential hazards emerging from the left side behind the parked white car and take note of the restricted road width caused by the temporary fencing. The ego car should be prepared to adjust speed and position to accommodate these factors while monitoring the road for any new developments that may impact the driving scenario."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "vehicles": [
+    {
+      "description": "A dark-colored car is visible ahead on the same lane as the ego car, maintaining distance from the construction barriers to its right.",
+      "explanation": "This car dictates the following distance and speed the ego car should maintain to ensure safe driving in this roadwork zone."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Reflective yellow and black striped traffic cones are placed intermittently along the right side of the road, indicating temporary changes in lane structure due to the construction area.",
+      "explanation": "These cones guide the traffic flow and inform the drivers to stay within the designated lanes, avoiding the construction space."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "Green barriers on both sides of the road with red and white striped warning signs at the top",
+      "explanation": "These barriers limit the available road space and indicate a construction or restricted area, signaling the need for caution and potentially reduced speed."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should maintain a safe following distance behind the car ahead, adhering to the modified lane structure demarcated by the traffic cones and barriers. The driver should be cautious and prepared to adjust speed if necessary due to the construction work and anticipate any sudden changes in traffic flow or lane availability. It is also advisable to keep an eye out for any construction vehicles or workers that might enter the roadway unexpectedly."
+  ]
+}

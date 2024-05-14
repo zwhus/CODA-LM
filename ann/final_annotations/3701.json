@@ -1,0 +1,22 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [
+    {
+      "description": "One canine is visible on the road, positioned approximately in the center of the lane ahead of the ego car, facing sideways.",
+      "explanation": "Animals on the road can be unpredictable and may enter the path of the vehicle, necessitating a careful approach or stop until the road is clear."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "A green metal fence runs along the right side of the road, partially obscuring the view",
+      "explanation": "The barrier may limit visibility of the road ahead and any potential hazards that may emerge from behind the fence."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Reduce speed and be prepared to stop or swerve to avoid the dog if it enters the road. Observe local signage and drive cautiously due to limited visibility and potential hazards beyond the green fence. Stay alert for any unpredictable movements from the dog or any other hidden obstacles that may emerge suddenly from the roadside."
+  ]
+}

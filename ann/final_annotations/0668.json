@@ -1,0 +1,26 @@
+{
+  "vehicles": [
+    {
+      "description": "Large truck directly ahead occupying the same lane as the ego car, with visible bright lights and reflective markings.",
+      "explanation": "The truck's size and position directly ahead dictate the following distance and speed of the ego car, while the bright lights may cause reduced visibility for the ego car driver."
+    },
+    {
+      "description": "A smaller vehicle is visible to the right ahead, partially in view and in the adjacent lane.",
+      "explanation": "The presence of this vehicle indicates another traffic participant in close proximity which the ego car driver needs to be aware of, especially if a lane change is considered."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "Some glare is visible on the windshield from lights on the truck, which could slightly impair the ego vehicle's driver's visibility.",
+      "explanation": "Reduced visibility may necessitate slower speeds and increased following distance to compensate for the potential reduction in reaction time."
+    }
+  ],
+  "suggestions": [
+    "Maintain a safe following distance from the truck to ensure there is sufficient time to react to unexpected events. Consider the visibility limitations due to the glare from the truck's lights and the reduced field of view. If the ego car intends to overtake the truck, it should ensure it can safely do so by verifying the adjacent lane is clear and that it would not interfere with the car in the right lane. Monitor that vehicle's speed and direction to anticipate its movements and adjust the ego car's driving strategy accordingly."
+  ]
+}

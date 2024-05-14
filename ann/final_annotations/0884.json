@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "A white vehicle on the right that seems to be parked or moving very slowly along the curb.",
+      "explanation": "This vehicle could potentially enter traffic, necessitating caution and readiness to adjust speed or change lanes by the ego car if necessary."
+    },
+    {
+      "description": "Oncoming vehicles with headlights on are visible in opposite lanes.",
+      "explanation": "The ego car must stay in its lane and be cognizant of the glare from the headlights which could affect visibility."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "Traffic light visible in the distance, illuminating a green light, indicating permission to proceed.",
+      "explanation": "While the light is currently green, the ego car should stay alert for any potential changes to the light, which could require the car to slow down or stop."
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "Illuminated billboards and street lighting are present along the roadside.",
+      "explanation": "These can be a distraction or affect visibility; the ego car should focus on the road and traffic."
+    }
+  ],
+  "suggestions": [
+    "Maintain a steady speed while approaching the intersection, monitoring the green traffic light for any changes. Keep a safe distance from the white car in the parallel lane and the vehicles ahead, and prepare for any unexpected maneuvers from them. Due to the mixed traffic of oncoming and leading vehicles, stay focused on the road and be ready to react if the traffic situation changes rapidly, such as vehicles stopping suddenly or pedestrians unexpectedly crossing the road, although none are visible in this image."
+  ]
+}

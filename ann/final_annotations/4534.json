@@ -1,0 +1,37 @@
+{
+  "vehicles": [
+    {
+      "description": "A white SUV is parked on the side of the road to the right, occupying part of the driving lane.",
+      "explanation": "This vehicle reduces the width of the drivable road space and could potentially open doors or move unexpectedly, requiring the ego vehicle to slow down and be prepared to stop or steer away to maintain a safe passing distance."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A worker wearing a high-visibility orange jacket standing behind a blue construction sign on the right side",
+      "explanation": "The worker's proximity to the road may require the ego car to slow down or steer away slightly to maintain a safe distance."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "Blue construction warning sign with a caution symbol and Chinese text located to the left in front of the construction site.",
+      "explanation": "This sign indicates construction ahead, alerting the ego vehicle's need to slow down, be wary of reduced lanes, and be prepared for workers or machinery entering the roadway."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Yellow and red traffic cones placed to the right side of the road, demarcating a work zone",
+      "explanation": "The cones signal that part of the road is not available for driving and may constrict the available driving lane, requiring attention and possible lane adjustments."
+    }
+  ],
+  "barriers": [
+    {
+      "description": "A series of yellow and orange barriers are placed on the left side of the road, indicating a closed or restricted lane due to construction.",
+      "explanation": "Barriers signal a change in the road layout that could affect navigable space, requiring the ego vehicle to adjust its lane position accordingly."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Proceed with caution, maintaining a lower speed suitable for the conditions. Pass the parked SUV with increased vigilance and wide berth, while being mindful of potential door openings or the vehicle pulling out. Also, stay alert for the construction worker and ready to react if they enter the roadway. Keep to the right while ensuring not to come too close to the parked SUV, and be prepared for any directional changes caused by the construction barriers."
+  ]
+}

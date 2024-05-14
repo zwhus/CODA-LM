@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A construction vehicle (road roller) is positioned ahead on the right side, partially obstructing the lane with its front facing towards the ego car, indicating that it could be operating or moving shortly",
+      "explanation": "The construction vehicle's position and orientation suggest that it may enter or cross the path of the ego car, requiring caution and a readiness to stop or slow down"
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Metal barriers are visible just behind the road roller, reinforcing the blockage of the road.",
+      "explanation": "The presence of barriers usually indicates road closures or detours. The ego vehicle must recognize this as an instruction not to proceed along the current path."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Reduce speed immediately and prepare to stop or navigate around the construction vehicle if safe and possible. The ego car must not proceed forward until it is clear that the road ahead is passable. If there are signals or instructions from road workers, follow them to navigate the area safely. If the obstruction is inescapable, the ego car should come to a complete stop and wait for the obstruction to clear or seek an alternate route."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "Two vehicles are visible ahead on the right lane. They are both red tail lights indicating that they are driving in the same direction as the ego car.",
+      "explanation": "The ego car must maintain a safe following distance and be prepared to adjust its speed based on the lead vehicles' actions."
+    },
+    {
+      "description": "No other vehicles are visible in the ego car's lane or approaching from the opposite direction.",
+      "explanation": "The ego car has a clear path ahead and can maintain its lane position without immediate risk of collision."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "Directional signs mounted overhead, indicating lanes and directions for traffic flow",
+      "explanation": "These signs guide the ego car for lane usage and navigating the road ahead, but no immediate action is required assuming the ego car is already in the correct lane"
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "There is a raised median dividing the opposite lanes of traffic with intermittent barriers.",
+      "explanation": "These barriers dictate that the ego car should stay in its current lane and avoid any maneuvers that would cross the median."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a steady speed and follow the direction provided by the overhead road signs. Continue to observe the road for traffic lights or any changes in the traffic ahead. Prepare for turns or lane changes as indicated by the road signage while maintaining a safe distance from the vehicles ahead. Stay vigilant for any road users or objects not currently visible that may come into view."
+  ]
+}

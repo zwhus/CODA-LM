@@ -1,0 +1,27 @@
+{
+  "vehicles": [
+    {
+      "description": "Yellow construction vehicle, possible wheel loader, positioned diagonally across the road ahead, slightly to the left, facing towards the ego car's direction, partially blocking the lane.",
+      "explanation": "The construction vehicle is obstructing the lane and could be moving debris or engaged in roadwork, which could create a hazard or require the ego car to slow down or stop."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Concrete barrier on the left side of the ego car, separating the road from the adjacent property.",
+      "explanation": "The barrier delineates the road boundary and restricts the width of the maneuverable road surface, limiting avoidance options for the ego car."
+    }
+  ],
+  "other objects": [
+    {
+      "description": "There is debris visible on the right side of the road next to the construction vehicle, suggesting ongoing work or cleaning operation.",
+      "explanation": "The presence of debris indicates that the operation involving the construction vehicle might be active, and could cause unexpected movements or further blockage."
+    }
+  ],
+  "suggestions": [
+    "The ego vehicle should slow down immediately and prepare to stop or navigate around the construction vehicle. The driver should look for any road work signs, personnel directing traffic, or additional signals that might provide guidance on how to proceed safely. If it's safe to pass and there's sufficient clearance on the left side, the ego vehicle may carefully drive around the construction vehicle, ensuring not to enter the opposite lane of traffic. If the path is not clear, the ego vehicle should come to a complete stop and wait for the construction vehicle to move or for instructions from a road worker."
+  ]
+}

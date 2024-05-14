@@ -1,0 +1,36 @@
+{
+  "vehicles": [
+    {
+      "description": "Cement mixer directly in front of the ego car, in the same lane, moving in the same direction",
+      "explanation": "A heavy and slower vehicle like a cement mixer can affect traffic flow and the ego car's speed, requiring following at a safe distance to accommodate for its slower acceleration and longer stopping distance."
+    },
+    {
+      "description": "Sedan on the right side of the ego car, also in the same direction but in an adjacent lane",
+      "explanation": "The sedan might change lanes or adjust its speed, so the ego car needs to monitor for any such maneuvers."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Motorcyclist on the left side of the ego car, moving in a parallel path",
+      "explanation": "Motorcyclists are more vulnerable and less visible, making it important for the ego car to maintain awareness and avoid any potential collisions, especially if the motorcycle changes lanes or speed."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "A traffic light showing green ahead of the ego car",
+      "explanation": "The green traffic light indicates that the ego car and other users can proceed, but awareness is needed in case the light changes or if there are any road users running the light."
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [
+    {
+      "description": "Blue construction barriers lining both sides of the road, narrowing the lanes and potentially obscuring hazards or workers",
+      "explanation": "These barriers indicate a construction zone; therefore, the ego vehicle should proceed with caution, anticipating potential obstacles or personnel entering the roadway."
+    }
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance behind the cement mixer due to its size and potential for slow movement. Keep a steady speed in line with the current traffic flow and remain alert for the motorcyclist who might be in the blind spot or may change lanes unexpectedly. Monitor the traffic light for changes and anticipate actions from other road users at the intersection. Stay in the same lane due to the proximity of the motorcyclist and barriers on the right, unless a lane change is necessary for navigation, in which case it should be done with caution and proper signaling. Ensure to check for the sedan's position to avoid sudden lane changes into the ego car's lane."
+  ]
+}

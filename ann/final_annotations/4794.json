@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "A red car is parked next to a directional sign at the side of the road, partly on the pavement.",
+      "explanation": "The position of the parked car may narrow the drivable space on the road, requiring careful navigation by the ego car."
+    },
+    {
+      "description": "Several other cars are parked alongside the road in the background, requiring the ego car to stay within the navigable lane while being aware of potential movements from these vehicles.",
+      "explanation": "Parked cars might obscure the vision and potential movements could interfere with the ego car's trajectory."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A small animal, possibly a cat or a small dog, is in the middle of the road ahead of the ego car, slightly to the left",
+      "explanation": "The animal may behave unpredictably and present a potential hazard requiring the ego car to slow down or stop to avoid a collision."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "A directional traffic sign on the right side of the road indicating a sharp left turn ahead",
+      "explanation": "This informs the ego car that the road ahead will curve sharply to the left, requiring a reduction in speed and caution when navigating the bend."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should reduce speed due to the animal on the road, approach with caution, and be prepared to stop if the animal's behavior becomes unpredictable. Navigation should be adjusted to account for the parked cars and the ego car should monitor these vehicles for any signs of movement, such as lights turning on or doors opening, which could indicate a car preparing to enter the road. Awareness of the road layout indicated by the directional sign should also be maintained to anticipate the actions of other drivers."
+  ]
+}

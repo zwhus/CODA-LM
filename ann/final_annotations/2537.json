@@ -1,0 +1,32 @@
+{
+  "vehicles": [
+    {
+      "description": "A truck is ahead in the same lane, white color, with red text on the rear, moving in the same direction as the ego car",
+      "explanation": "The truck's presence requires the ego car to maintain a safe following distance and be prepared to adjust speed"
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "Two pedestrians are visible on the right side of the road, walking along the roadside in the same direction as the ego car",
+      "explanation": "Their proximity to the roadway requires the ego car to monitor them in case they enter the roadway"
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Several red and white traffic cones are positioned along the right side of the road, indicating a section of the lane is unavailable for use.",
+      "explanation": "The cones signal a potential hazard or roadwork, necessitating the ego car to stay clear of the coned-off area."
+    }
+  ],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "A large pile of dirt or construction debris is present to the right of the roadway, partially obstructing the pedestrian area and posing a potential risk if it spills onto the road",
+      "explanation": "This obstruction indicates ongoing construction or roadwork which may affect road conditions and require attention"
+    }
+  ],
+  "suggestions": [
+    "The ego car should maintain a safe distance from the truck ahead, being prepared for unexpected stops or changes in speed. The car should monitor the pedestrians on the side of the road and be ready to stop or slow down if they show any signs of moving onto the road. The presence of traffic cones suggests a need for reduced speed and caution, especially since there may be workers or machinery present. The ego car should navigate the area with loose road material carefully to maintain control and avoid skidding. Overall, the ego car should proceed with caution, adhere to the speed limit, and be prepared to adjust its trajectory or speed based on the actions of the road users and the road conditions."
+  ]
+}

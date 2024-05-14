@@ -1,0 +1,49 @@
+{
+  "vehicles": [
+    {
+      "description": "A silver sedan directly in front of the ego vehicle within the same lane, stationary or moving at low speed, positioned at a pedestrian crossing",
+      "explanation": "This vehicle directly influences the ego car's ability to proceed and dictates the following distance required."
+    },
+    {
+      "description": "A black SUV on the left side of the ego vehicle, slightly ahead, potentially crossing the ego vehicle's path or merging.",
+      "explanation": "This SUV\u2019s motions may affect the lateral movement of the ego vehicle."
+    },
+    {
+      "description": "A bus partially visible in the opposite direction lane, farther behind the white car",
+      "explanation": "The bus may obstruct view or make turns, requiring caution and increased attention from the ego car."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "People on the sidewalk to the right, possibly indicating a potential to enter the roadway.",
+      "explanation": "There's a possibility that the gesturing individual or others might step onto the road, requiring the ego car to be alert and ready to stop."
+    },
+    {
+      "description": "A person on electric bikes in the vicinity of the pedestrian crossing on the opposite side of the street",
+      "explanation": "The person could enter the traffic flow, necessitating awareness and possible reaction from the ego vehicle."
+    },
+    {
+      "description": "Multiple pedestrians crossing the road in front of the turning black SUV",
+      "explanation": "The pedestrians have the right of way and the ego car must ensure their safe crossing before proceeding."
+    }
+  ],
+  "traffic signs": [
+    {
+      "description": "A red and white do-not-enter sign to the right of the road, in front of the workers",
+      "explanation": "This sign indicates that the road ahead is closed to vehicles, informing the ego car that proceeding straight is not allowed."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "A line of orange traffic cones starting from the bottom right corner and extending towards the top left, separating the two sides of the road.",
+      "explanation": "These dictate the flow of traffic and suggest a partition of the roadway, possibly for construction or an event, guiding the ego car to stay within its designated lane."
+    }
+  ],
+  "barriers": [
+  ],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should maintain a safe following distance from the silver sedan in front while preparing to stop for the pedestrians crossing the street. It should pay attention to the actions of the black SUV to the left. The ego car should also remain vigilant for people and other vehicles that may affect its path and avoid the coned-off restricted lane to the left."
+  ]
+}

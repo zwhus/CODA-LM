@@ -1,0 +1,29 @@
+{
+  "vehicles": [
+    
+    {
+      "description": "Cars are parked on both sides of the street, which narrows the effective width of the driveable road space",
+      "explanation": "The parked cars limit the available width of the road and could potentially obstruct the road if a door opens or a car pulls out."
+    },
+    {
+      "description": "A motorcycle is on the right side of the ego car, moving in the same direction",
+      "explanation": "The proximity of the motorcyclist to the ego car's trajectory requires awareness and potential adjustment in the ego car's speed or position to maintain a safe distance."
+    }
+  ],
+  "vulnerable_road_users": [
+    
+  ],
+  "traffic signs": [
+    {
+      "description": "Pedestrian crossing signs are visible on both sides of the road",
+      "explanation": "These signs indicate areas where pedestrians may be crossing, so the ego car must be prepared to stop or slow down accordingly."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Due to the parked cars along both sides of the street, maintain a reduced speed to ensure safe passage and be prepared for possible obstructions. Keep a safe distance from the motorcycle ahead and be aware of potential lane changes or stops. Slow down when approaching pedestrian crosswalks and be prepared to yield to any pedestrians that may enter the crosswalk. Stay vigilant for any signs of movement from the parked cars, such as reversing lights or opening doors."
+  ]
+}

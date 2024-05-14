@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A dark-colored SUV directly in front of the ego vehicle",
+      "explanation": "The SUV is occupying the lane that the ego car is in and appears to be stationary or moving slowly, which will directly influence the speed and following distance of the ego car."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Orange traffic cones on the right edge of the road, marking a section of the curbside",
+      "explanation": "These indicate a potential road hazard or maintenance work ahead, possibly suggesting a narrowing of the driveable road space and that caution should be applied when driving past."
+    }
+  ],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance behind the SUV. Be alert to the traffic cones on the right side of the road, indicating possible lane closures ahead, and prepare to change lanes if necessary while being mindful of the road devices, signaling any lane changes well in advance. Follow the posted speed limits and traffic rules, and stay attentive for unexpected changes or potential hazards within the driving environment."
+  ]
+}

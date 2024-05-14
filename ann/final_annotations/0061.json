@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "description": "One car in front of the ego vehicle, dark color, moderate distance ahead, maintaining lane position.",
+      "explanation": "The car's presence and speed will be a key factor in dictating the ego vehicle's speed and following distance to avoid a rear-end collision."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "A motorcyclist on the right, moving in the same direction as the ego car",
+      "explanation": "The motorcyclist's presence requires the ego car to maintain a safe distance and be vigilant of potential turns or merging into the lane."
+    },
+    {
+      "description": "A cyclist is on the side of the road to the right of the ego vehicle, travelling in the same direction.",
+      "explanation": "The moving cyclist could potentially veer into the path of the ego vehicle, requiring the driver to be attentive and possibly slow down or change lanes if necessary to ensure safe passing distance."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [
+    {
+      "description": "There is a row of parked motorcycles on the left side",
+      "explanation": "The parked motorcycles do not immediately affect the path of the ego car but should be monitored in case of pedestrians moving between them or motorcycles pulling out into traffic."
+    }
+  ],
+  "suggestions": [
+    "Maintain a safe following distance from the car ahead, monitor the speed and trajectory of both the motorcyclist and the cyclist to the right while preparing to overtake with caution. Be mindful of the parked scooters to avoid any sudden movements by pedestrians or other road users. Continue to observe normal traffic rules and regulations, and adjust speed according to the flow of traffic and any potential changes in the road situation."
+  ]
+}

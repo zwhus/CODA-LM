@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {
+      "description": "A white recreational vehicle (RV) is occupying the same lane as the ego-vehicle, positioned directly in front of it. The RV appears to be large and moving in the same direction as the ego-vehicle.",
+      "explanation": "The RV's significant size and proximity may reduce visibility ahead for the driver of the ego-vehicle, necessitating increased following distance to compensate for the limited view of the road ahead and traffic conditions."
+    },
+    {
+      "description": "Multiple vehicles including cars and a truck are visible ahead in adjacent lanes and further down the road, moving in the same direction.",
+      "explanation": "These vehicles do not immediately affect the ego vehicle's driving behavior but should be monitored for potential lane changes, slowdowns, or other maneuvers that could influence the traffic flow."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the RV to allow sufficient time to react to traffic conditions and any potential obstructions that may not be visible due to the RV's size. Be prepared to adjust speed or change lanes if necessary to keep a safe distance and continue monitoring the surrounding traffic for any sudden changes. It is also advisable to stay alert for any traffic signs or signals that may come into view."
+  ]
+}

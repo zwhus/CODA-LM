@@ -1,0 +1,17 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [
+    {
+      "description": "Pedestrians are visible on the sidewalk to the right side of the ego vehicle, walking away from the vehicle.",
+      "explanation": "While the pedestrians are not on the road, their proximity to the curb means the ego vehicle should monitor them in case they step onto the roadway."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Proceed at a reduced speed while closely monitoring the dog's movement. Be prepared to stop or take evasive action if the animal enters the path of the ego vehicle. Additionally, keep an eye on the pedestrians to the right and be prepared to react if one were to enter the roadway."
+  ]
+}

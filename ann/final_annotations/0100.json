@@ -1,0 +1,28 @@
+{
+  "vehicles": [
+    {
+      "description": "A black SUV driving in the same direction as the ego car, occupying the lane directly in front of the ego car.",
+      "explanation": "The SUV's presence dictates that the ego car should maintain a safe following distance and be prepared to adjust speed according to the SUV's movements."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "A directional sign on the left indicates a mandatory direction of travel, pointing downwards to the right, suggesting a curve or lane merging to the right.",
+      "explanation": "The ego car must follow the direction indicated to stay in the correct lane and comply with road regulations."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [
+    {
+      "description": "Orange traffic cones are placed along the dividing line of the lanes to the left of the ego vehicle, demarcating a boundary.",
+      "explanation": "These restrict the ability of the ego car to merge left and require the driver to maintain their current lane or carefully maneuver right if needed."
+    }
+  ],
+  "barriers": [
+  ],
+  "other objects": [],
+  "suggestions": [
+    "Maintain safe following distance behind the SUV, be alert to the possibility of the vehicle slowing down or changing lanes due to the road curving ahead. Adhere to the indicated turn direction and be prepared to navigate through the coned-off area by staying in the designated lane. Pay attention to the road and avoid distractions from non-traffic signs."
+  ]
+}

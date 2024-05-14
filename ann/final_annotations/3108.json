@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "One red car driving ahead in the same direction on the right side of the road, with headlights on, indicating night time driving conditions.",
+      "explanation": "The vehicle is driving in the same lane as the ego vehicle which may require maintaining a safe following distance or considering an overtake if the red car is moving slower than the ego vehicle's desired speed."
+    }
+  ],
+  "vulnerable_road_users": [
+    {
+      "description": "There is a pedestrian on the sidewalk to the right side of the road, appearing to walk parallel to the road.",
+      "explanation": "While the pedestrian is not on the roadway, their presence requires monitoring in case they decide to cross the road unexpectedly, prompting readiness to stop or slow down."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a steady speed while keeping a safe following distance from the red car ahead, and be prepared to adjust speed or path of travel should the pedestrian and dog move towards the roadway. Additionally, keep headlights and tail lights on for visibility, and stay alert for any other potential hazards that may be difficult to see at night."
+  ]
+}

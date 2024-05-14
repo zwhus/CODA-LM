@@ -1,0 +1,22 @@
+{
+  "vehicles": [],
+  "vulnerable_road_users": [
+    {
+      "description": "A pedestrian crossing the street with a small dog on a leash, positioned on the crosswalk directly ahead of the ego vehicle.",
+      "explanation": "The pedestrian with the dog can affect the ego car's path and right of way, as pedestrians have priority on the crosswalk, especially if the pedestrian signal is in their favor."
+    }
+  ],
+  "traffic signs": [],
+  "traffic lights": [
+    {
+      "description": "A traffic light is visible with a red signal illuminated for the direction the ego car is facing",
+      "explanation": "The red traffic light indicates that the ego car must stop at the intersection and wait for a green signal before proceeding."
+    }
+  ],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "The ego car should remain stopped due to the red traffic light. Additionally, it should ensure not to proceed even if the light turns green until the pedestrian and the accompanying animal have safely reached the other side of the crosswalk. The ego car should remain vigilant for any other road users that may be more difficult to see due to the nighttime conditions."
+  ]
+}

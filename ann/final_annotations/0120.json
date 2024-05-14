@@ -1,0 +1,22 @@
+{
+  "vehicles": [
+    {
+      "description": "A large green truck on the right, occupying the rightmost lane, facing the same direction as the ego car.",
+      "explanation": "The truck's size and position may limit visibility and maneuverability for the ego car, particularly if it decides to change lanes or if the truck changes its lane."
+    }
+  ],
+  "vulnerable_road_users": [],
+  "traffic signs": [
+    {
+      "description": "A red triangular warning sign on the right shoulder of the road, suggesting the potential hazard or construction ahead.",
+      "explanation": "The ego car should be alert for potential obstacles or changes in traffic flow due to the road work indicated by this sign."
+    }
+  ],
+  "traffic lights": [],
+  "traffic cones": [],
+  "barriers": [],
+  "other objects": [],
+  "suggestions": [
+    "Maintain a safe following distance from the truck ahead and be prepared to change lanes if the truck continues to encroach into the ego car's lane. Slow down as you approach the warning triangle and be ready for unexpected road conditions or obstacles."
+  ]
+}
