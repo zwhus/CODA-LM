@@ -37,9 +37,10 @@ class GPTBatcher:
         
         self.client = OpenAI(api_key=api_key, base_url = api_base_url)
         self.model_name = model_name
-        self.system_prompt = "You are an impartial judge tasked with evaluating the quality of predicted text provided by autonomous driving AI assistant. You will compare this prediction text to a reference text, focusing on the description of objects that influence the driving behavior of ego car, and the explanation of why these objects impact. Your evaluation criteria should include accuracy(checking \
-                            if the predicted text correctly identifies objects mentioned the reference text), suppression hallucination(ensuring that objects not mentioned in the reference text are not erroneously included in the predicted text), correlation(sessing if the reasons for the objects' impact on the ego car's driving behavior are consistent between the reference and predicted text). Be as objective as possible. \
-                            Do not allow the length of the predicted text to influence your evaluation. Maximize your text comprehension capabilities to freely match objects with high similarity, appropriately ignoring the relative positions and color attributes of the objects. After providing your short explanation, you must rate the response on a scale from 1 to 10 by strictly following this format: \"[[rating]]\", for example: \"Rating: [[10]]\"."
+        self.system_prompt = "You are an impartial judge tasked with evaluating the quality of predicted text provided by autonomous driving AI assistant. You will compare this prediction to a reference text, focusing on the ego car driving suggestion. Your evaluation should consider \
+                    rationality, relevance, level of detail of the response. Predicted text should be specific and actionable, rather than vague or overly broad. Identify and correct any mistakes. Do not allow the length of the predicted text to influence your evaluation. \
+                    Do not allow the length of the predicted text to influence your evaluation. Maximize your text comprehension capabilities to freely match objects with high similarity, appropriately ignoring the relative positions and color attributes of the objects.\
+                    After providing your short explanation, you must rate the response on a scale from 1 to 10 by strictly following this format: \"[[rating]]\", for example: \"Rating: [[10]]\"."
         self.temperature = temperature
         self.num_workers = num_workers
         self.timeout_duration = timeout_duration
@@ -58,7 +59,7 @@ class GPTBatcher:
         })
 
         # few shot example
-        few_shot = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scene_few_shot")
+        few_shot = os.path.join(os.path.dirname(os.path.abspath(__file__)), "suggestion_few_shot")
         with open(os.path.join(few_shot, "high.json")) as f:
             high_data = json.load(f)
         with open(os.path.join(few_shot, "low.json")) as f:
@@ -210,9 +211,9 @@ if __name__ == "__main__":
 
     parser.add_argument("--reference_path", type=str, default="/19969306569/huawei_annotation/final_ann_stage12_4_8/final_annotations")
     # ann
-    parser.add_argument("--prediction_path", type=str, default="/19969306569/XTuner/eval_res/codalm_llava_stage1_result.jsonl")
+    parser.add_argument("--prediction_path", type=str, default="/19969306569/InternLM-XComposer/evaluation/codallm/stage2_answer.jsonl")
     # prediction/xx.jsonl
-    parser.add_argument("--save_path", type=str, default="/19969306569/XTuner/eval/stage1_llava_vicuna_eval_test")
+    parser.add_argument("--save_path", type=str, default="/19969306569/XTuner/eval/stage2_llava_vicuna_eval_test")
     # eval/xx
     args = parser.parse_args()
 
