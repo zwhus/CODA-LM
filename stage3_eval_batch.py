@@ -123,28 +123,6 @@ class RegionEval(object):
             txt_names.append(f"{ref['image_name'].split('.')[0]}.txt")
             
         return results, txt_names
-        
-    def create_messages_savenames():
-        rets = []
-        out_names = []
-        out_names_score0 = []
-        for label_name in tqdm(self.label_info.keys()):
-            with open(os.path.join(self.save_path, f"{label_name}.txt"), "w") as fp:
-                gt, pred = self.gt_data[label_name], self.predict_data[label_name]  # List[Dict]
-                if len(gt) == 0:
-                    out_names_score0.append(f"{label_name}.txt")
-                    continue
-                for index in tqdm(range(len(gt))):
-                    hypo = pred[index]
-                    ref = gt[index]
-                    message = dict()
-                    message["prediction"] = hypo["caption"]
-                    message["reference"] = ref["caption"]
-                    ret = create_messages(message)
-                    out_name = f"{ref['image_name'].split('.')[0]}.txt"
-                    rets.append(ret)
-                    out_names.append(out_name)
-        return rets, out_names, out_names_score0
 
 class GPTBatcher:
     """
