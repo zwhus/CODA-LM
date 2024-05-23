@@ -2,26 +2,14 @@ from openai import OpenAI
 from concurrent.futures import ThreadPoolExecutor, wait
 from functools import partial
 from tqdm import tqdm
-from openai import OpenAI
 import time
 import os
 import json
-from tqdm import tqdm
 import argparse
 
 class GPTBatcher:
     """
-    A class to handle batching and sending requests to the OpenAI GPT model efficiently.
-
-    Attributes:
-        client (OpenAI): The client instance to communicate with the OpenAI API using the provided API key.
-        model_name (str): The name of the GPT model to be used. Default is 'gpt-3.5-turbo-0125'.
-        system_prompt (str): Initial prompt or context to be used with the model. Default is an empty string.
-        temperature (float): Controls the randomness of the model's responses. Higher values lead to more diverse outputs. Default is 1.
-        num_workers (int): Number of worker threads used for handling concurrent requests. Default is 64.
-        timeout_duration (int): Maximum time (in seconds) to wait for a response from the API before timing out. Default is 60 seconds.
-        retry_attempts (int): Number of retries if a request fails. Default is 2.
-        miss_index (list): Tracks the indices of requests that failed to process correctly.
+    Copy from https://github.com/fengsxy/gpt_batch
 
     Parameters:
         api_key (str): API key for authenticating requests to the OpenAI API.
@@ -33,7 +21,15 @@ class GPTBatcher:
         retry_attempts (int, optional): How many times to retry a failed request. Default is 2.
     """
 
-    def __init__(self, api_key, model_name="gpt-3.5-turbo-0125", system_prompt="",temperature=0,num_workers=64,timeout_duration=60,retry_attempts=2,api_base_url=None):
+    def __init__(self, 
+                 api_key, 
+                 model_name="gpt-3.5-turbo", 
+                 system_prompt="",
+                 temperature=0, 
+                 num_workers=32,
+                 timeout_duration=60,
+                 retry_attempts=2,
+                 api_base_url=None):
         
         self.client = OpenAI(api_key=api_key, base_url = api_base_url)
         self.model_name = model_name
@@ -132,6 +128,7 @@ class GPTBatcher:
             return new_list
 
     def complete_attitude_list(self,attitude_list, max_length):
+        # import pdb;pdb.set_trace()
         completed_list = []
         current_index = 0
         for item in attitude_list:
@@ -159,68 +156,39 @@ class GPTBatcher:
         indexed_list = [(index, data) for index, data in enumerate(message_list)]
         max_length = len(indexed_list)
         attitude_list = self.process_attitude(indexed_list)
+        
         attitude_list.sort(key=lambda x: x[0])
         attitude_list = self.complete_attitude_list(attitude_list, max_length)
         attitude_list = [x[1] for x in attitude_list]
         return attitude_list
     
-    def process_embedding(self,message_list):
-            new_list = []
-            executor = ThreadPoolExecutor(max_workers=self.num_workers)
-            # Split message_list into chunks
-            message_chunks = list(self.chunk_list(message_list, self.num_workers))
-            fixed_get_embedding = partial(self.get_embedding)
-            for chunk in tqdm(message_chunks, desc="Processing messages"):
-                future_to_message = {executor.submit(fixed_get_embedding, message): message for message in chunk}
-                for i in range(self.retry_attempts):
-                    done, not_done = wait(future_to_message.keys(), timeout=self.timeout_duration)
-                    for future in not_done:
-                        future.cancel()
-                    new_list.extend(future.result() for future in done if future.done())
-                    if len(not_done) == 0:
-                        break
-                    future_to_message = {executor.submit(fixed_get_embedding, future_to_message[future]): future_to_message[future] for future in not_done}
-            executor.shutdown(wait=False)
-            return new_list
-    def get_embedding(self,text):
-        index,text = text
-        response = self.client.embeddings.create(
-        input=text,
-        model=self.model_name)
-        return (index,response.data[0].embedding)
-
-    def handle_embedding_list(self,message_list):
-        indexed_list = [(index, data) for index, data in enumerate(message_list)]
-        max_length = len(indexed_list)
-        attitude_list = self.process_embedding(indexed_list)
-        attitude_list.sort(key=lambda x: x[0])
-        attitude_list = self.complete_attitude_list(attitude_list, max_length)
-        attitude_list = [x[1] for x in attitude_list]
-        return attitude_list
     
     def get_miss_index(self):
         return self.miss_index
 
-    # Add other necessary methods similar to the above, refactored to fit within this class structure.
-
-
 if __name__ == "__main__":
    
     parser = argparse.ArgumentParser()
-
-    parser.add_argument("--reference_path", type=str, default="/19969306569/huawei_annotation/final_ann_stage12_4_8/final_annotations")
-    # ann
-    parser.add_argument("--prediction_path", type=str, default="/19969306569/XTuner/eval_res/codalm_llava_stage1_result.jsonl")
-    # prediction/xx.jsonl
-    parser.add_argument("--save_path", type=str, default="/19969306569/XTuner/eval/stage1_llava_vicuna_eval_test")
-    # eval/xx
+    parser.add_argument("--reference_path", type=str, default="ann")
+    parser.add_argument("--prediction_path", type=str, default="prediction/xx.jsonl")
+    parser.add_argument("--save_path", type=str, default="eval_res/xx")
+    # parser.add_argument("--eval_mdoe", type=str, choices=["general_perception", "suggestions"], default="general_perception"),
+    parser.add_argument("--num_workers", type=int, default=32)
+    parser.add_argument("--model_name", type=str, default="gpt-4-1106-preview")
+    parser.add_argument("--api_key", type=str, default="sk-ZviaVZ9N7MOtjVL8EbA43e034cFf4b8e83902f407630FcBf")
+    parser.add_argument("--api_base_url", type=str, default="https://api.gptplus5.com/v1")
     args = parser.parse_args()
-
+    
     os.makedirs(args.save_path, exist_ok=True)
     json_list = sorted(os.listdir(args.reference_path))
     answers = [json.loads(q) for q in open(os.path.expanduser(args.prediction_path), "r")]
-    batcher = GPTBatcher(api_key='sk-ZviaVZ9N7MOtjVL8EbA43e034cFf4b8e83902f407630FcBf', model_name='gpt-4-1106-preview', api_base_url='https://api.gptplus5.com/v1')
-    score = []
+    batcher = GPTBatcher(
+        api_key=args.api_key, 
+        model_name=args.model_name, 
+        num_workers=args.num_workers,
+        api_base_url=args.api_base_url)
+    
+    all_score = []
     rets = []
     for idx, json_name in tqdm(enumerate(json_list)):
         message= dict()
@@ -243,29 +211,28 @@ if __name__ == "__main__":
         message["reference"] = " ".join(info)
         ret = batcher.create_messages(message)
         rets.append(ret)
+        
     results = batcher.handle_message_list(rets)
     for idx, json_name in tqdm(enumerate(json_list)):
         output = results[idx]
-        # output = results[idx].choices[0].message.content
         txt_name = json_name.replace(".json", ".txt")
+        if output == None:
+            continue
+            print(f"Missing {json_name} output")
+            
+        try:
+            all_score.append(int(output.split("Rating: [[")[1].split("]]")[0]))
+        except:
+            try:
+                all_score.append(int(output.split("rating is: [[")[1].split("]]")[0]))
+            except:
+                try:
+                    all_score.append(int(output.split("[[")[1].split("]]")[0]))
+                except:
+                    print(f"Missing extract score from {txt_name}")
+                    
         with open(os.path.join(args.save_path, txt_name), "w") as f:
             f.write(output)
     
     # cal score
-    all_score = []
-    for name in sorted(os.listdir(args.save_path)):
-        with open(os.path.join(args.save_path, name)) as f:
-            output = f.read()
-            # import pdb; pdb.set_trace()
-            try:
-                all_score.append(int(output.split("Rating: [[")[1].split("]]")[0]))
-            except:
-                try:
-                    all_score.append(int(output.split("rating is: [[")[1].split("]]")[0]))
-                except:
-                    try:
-                        all_score.append(int(output.split("[[")[1].split("]]")[0]))
-                    except:
-                        print(f"name: {name}, {output}")
-
-    print(f"all_score: {sum(all_score)/len(all_score)}")
+    print(f"Stage1_score: {sum(all_score)/len(all_score)}")
