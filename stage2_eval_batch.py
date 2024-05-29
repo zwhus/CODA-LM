@@ -176,7 +176,8 @@ if __name__ == "__main__":
     parser.add_argument("--model_name", type=str, default="gpt-4-1106-preview")
     parser.add_argument("--api_key", type=str, default="sk-ZviaVZ9N7MOtjVL8EbA43e034cFf4b8e83902f407630FcBf")
     parser.add_argument("--api_base_url", type=str, default="https://api.gptplus5.com/v1")
-
+    args = parser.parse_args()
+    
     os.makedirs(args.save_path, exist_ok=True)
     json_list = sorted(os.listdir(args.reference_path))
     answers = [json.loads(q) for q in open(os.path.expanduser(args.prediction_path), "r")]
